@@ -144,7 +144,7 @@
                 "Name": "Dublin",
                 "Lat": 53.349805,
                 "Long": -6.26031,
-                "Country":"Ireland  "
+                "Country":"Ireland"
             },
             {
                 "Name": "st lucia",
@@ -269,7 +269,7 @@
             }
 
             //idividual point
-            Locations.forEach(element => {
+            Locations.forEach(element => {  
                 var i = myMap.latLngToPixel(element["Lat"], element["Long"]);
                 fill(100, 255, 100, 255);
                 var eli = ellipse(i.x, i.y, 15, 15);
