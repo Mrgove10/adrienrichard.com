@@ -165,5 +165,11 @@
         "Lat": -12.1825,
         "Long": 136.781944,
         "Country":"Australia"
+    },
+    {
+        "Name": "Reykjavik",
+        "Lat": 64.1466,
+        "Long": 21.9426,
+        "Country": "Iceland"
     }
 ]
