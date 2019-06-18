@@ -1,21 +1,200 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="main-wrapper home-one">
+  <div id="navigation" class="menu-one">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand logo">
+          <a href="#">
+            <img class="img-responsive" src="images/logo.png" alt="Image">
+          </a>
+        </div>
+      </div>
 
-<router-outlet></router-outlet>
+      <nav id="mainmenu" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="scroll current dropdown">
+            <a href="#home-banner">
+              <span>
+                <i class="fa fa-hand-peace-o" aria-hidden="true"></i>Home</span>
+            </a>
+          </li>
+          <li class="scroll">
+            <a href="#about">
+              <span>
+                <i class="fa fa-user" aria-hidden="true"></i>Profile</span>
+            </a>
+          </li>
+          <li class="scroll">
+            <a href="#skill">
+              <span lang="fr">
+                <i class="fa fa-sliders" aria-hidden="true"></i>Competences</span>
+              <span lang="en">
+                <i class="fa fa-sliders" aria-hidden="true"></i>Skills</span>
+            </a>
+          </li>
+          <li class="scroll">
+            <a href="#exprience">
+              <span>
+                <i class="fa fa-briefcase" aria-hidden="true"></i>Experiences</span>
+            </a>
+          </li>
+          <li class="scroll">
+            <a href="#education">
+              <span>
+                <i class="fa fa-leanpub" aria-hidden="true"></i>Education</span>
+            </a>
+          </li>
+          <li class="scroll">
+            <a href="#portfolio">
+              <span lang="fr">
+                <i class="fa fa-code" aria-hidden="true"></i>Projets</span>
+              <span lang="en">
+                <i class="fa fa-code" aria-hidden="true"></i>Projects</span>
+
+            </a>
+          </li>
+          <li class="scroll">
+            <a href="#events">
+              <span lang="fr">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>Évènements</span>
+              <span lang="en">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>Events</span>
+            </a>
+          </li>
+          <li class="scroll">
+            <a href="#contact">
+              <span>
+                <i class="fa fa-envelope" aria-hidden="true"></i>Contact</span>
+            </a>
+          </li>
+          <li>
+            <ul class="social list-inline" item-height="100">
+              <li>
+                <a href="https://www.linkedin.com/in/adrien-rich/" data-toggle="tooltip" data-placement="top"
+                  title="Linkedin">
+                  <i class="fa fa-linkedin" aria-hidden="true" alt="Linkedin"></i>
+                </a>
+              </li>
+              <li>
+
+                <a href="https://github.com/Mrgove10" data-toggle="tooltip" data-placement="top" title="Github">
+                  <i class="fa fa-github-alt" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://wakatime.com/@Adrien" data-toggle="tooltip" data-placement="top" title="WakaTime">
+                  <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="Map_Advance.html" data-toggle="tooltip" data-placement="top" title="Map">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://testing.adrienrichard.com" data-toggle="tooltip" data-placement="top" title="Tests">
+                  <i class="fa fa-flask" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li id="switch-lang-li">
+                <button id="switch-lang" style="background-color: Transparent;
+                                    background-repeat:no-repeat;
+                                    border: none;
+                                    cursor:pointer;
+                                    overflow: hidden;
+                                    outline:none;" data-toggle="tooltip" data-placement="top" title="Language">
+                  <a lang="fr">
+                    <i class="flag-icon flag-icon-gb"></i>
+                  </a>
+                  <a lang="en">
+                    <i class="flag-icon flag-icon-fr"></i>
+                  </a>
+                </button>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+              <p style="font-size: x-small">
+                <b>Shoot for the moon. Even if you miss, you'll land among the stars. </b>
+                Norman Vincent Peale.
+              </p>
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- navbar -->
+  </div>
+  <!-- navigation -->
+
+  <router-outlet></router-outlet>
+
+  <div id="footer">
+    <div class="container">
+      <div class="footer">
+        <p> &copy; 2018
+          <a href="#">Adrien RICHARD.</a> All Rights Reserved</p>
+        <script>
+          (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+          })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+          ga('create', 'UA-81747128-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+      </div>
+    </div>
+    <!-- contaner -->
+  </div>
+  <!-- footer -->
+</div>
+<!-- main wrapper -->
+
+<!-- JS -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/counterup.min.js"></script>
+<script src="js/inview.min.js"></script>
+<script src="js/easypiechart.js"></script>
+<!-- <script src="js/magnific-popup.min.js"></script> -->
+<script src="js/main.js"></script>
+<script src="js/GithubRepoWidget.min.js"></script>
+
+<script>
+  $('[lang="fr"]').hide();
+
+  $('#switch-lang').click(function () {
+    console.log("Language changed");
+    $('[lang="fr"]').toggle();
+    $('[lang="en"]').toggle();
+  });
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+  /*
+  $.getJSON('https://api.github.com/users/Mrgove10', function(data) {
+      console.log(data);
+      console.log(data["public_repos"]);
+  });
+  */
+
+</script>
