@@ -24,9 +24,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/main.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/flag-icon.css"              
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery-ui.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/counterup.min.js",
+              "src/assets/js/easypiechart.js",
+              "src/assets/js/inview.min.js",
+              "src/assets/js/waypoints.min.js",
+              "src/assets/js/GithubRepoWidget.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -84,7 +99,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "css/"
             ],
             "scripts": []
           }
