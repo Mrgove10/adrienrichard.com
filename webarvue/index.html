@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Adrien Richard, Coder & Tinkerer">
+    <meta name="copyright" content="Adrien Richard">
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="Adrien, Richard, Code, Xamarin, C#, HTLM,PHP" />
+    <meta name="Classification" content="Business">
+    <meta name="url" content="http://www.adrienrichard.com">
+    <meta name="identifier-URL" content="http://www.adrienrichard.com">
+    <meta name="coverage" content="Worldwide">
+    <meta name="rating" content="General">
+
+    <title>Adrien RICHARD</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/ico/favicon.ico">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Sacramento" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.html">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.html">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.html">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../images/ico/apple-touch-icon-57-precomposed.html">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/flag-icon.css">
+
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body id="app">
+    <div class="main-wrapper home-one">
+        <div id="navigation" class="menu-one">
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand logo">
+                        <a href="#">
+                            <img class="img-responsive" src="images/logo.png" alt="Image">
+                        </a>
+                    </div>
+                </div>
+
+                <nav id="mainmenu" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll current dropdown">
+                            <a href="#home-banner">
+                                <span>
+                                    <i class="fa fa-hand-peace-o" aria-hidden="true"></i>Home</span>
+                            </a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#about">
+                                <span>
+                                    <i class="fa fa-user" aria-hidden="true"></i>Profile</span>
+                            </a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#skill">
+                                <span lang="fr">
+                                    <i class="fa fa-sliders" aria-hidden="true"></i>Competences</span>
+                                <span lang="en">
+                                    <i class="fa fa-sliders" aria-hidden="true"></i>Skills</span>
+                            </a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#exprience">
+                                <span>
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>Experiences</span>
+                            </a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#education">
+                                <span>
+                                    <i class="fa fa-leanpub" aria-hidden="true"></i>Education</span>
+                            </a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#portfolio">
+                                <span lang="fr">
+                                    <i class="fa fa-code" aria-hidden="true"></i>Projets</span>
+                                <span lang="en">
+                                    <i class="fa fa-code" aria-hidden="true"></i>Projects</span>
+                            </a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#events">
+                                <span lang="fr">
+                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Évènements</span>
+                                <span lang="en">
+                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>Events</span>
+                            </a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#contact">
+                                <span>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>Contact</span>
+                            </a>
+                        </li>
+                        <li>
+                            <ul class="social list-inline" item-height="100">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/adrien-rich/" data-toggle="tooltip"
+                                        data-placement="top" title="Linkedin">
+                                        <i class="fa fa-linkedin" aria-hidden="true" alt="Linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+
+                                    <a href="https://github.com/Mrgove10" data-toggle="tooltip" data-placement="top"
+                                        title="Github">
+                                        <i class="fa fa-github-alt" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://wakatime.com/@Adrien" data-toggle="tooltip" data-placement="top"
+                                        title="WakaTime">
+                                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Map_Advance.html" data-toggle="tooltip" data-placement="top" title="Map">
+                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://testing.adrienrichard.com" data-toggle="tooltip"
+                                        data-placement="top" title="Tests">
+                                        <i class="fa fa-flask" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li id="switch-lang-li">
+                                    <button id="switch-lang" style="background-color: Transparent;
+                                    background-repeat:no-repeat;
+                                    border: none;
+                                    cursor:pointer;
+                                    overflow: hidden;
+                                    outline:none;" data-toggle="tooltip" data-placement="top" title="Language">
+                                        <a lang="fr">
+                                            <i class="flag-icon flag-icon-gb"></i>
+                                        </a>
+                                        <a lang="en">
+                                            <i class="flag-icon flag-icon-fr"></i>
+                                        </a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                <p style="font-size: x-small">
+                                    <b>Shoot for the moon. Even if you miss, you'll land among the stars. </b>
+                                    Norman Vincent Peale.
+                                </p>
+                            </span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- navbar -->
+        </div>
+        <!-- navigation -->
+
+        <div id="home-banner" class="home-banner-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+
+                        <div class="banner-content">
+
+                            <div class="banner-info">
+
+                                <h1 lang="en"> Hello, I am</h1>
+                                <h1 lang="fr"> Bonjour, Je suis</h1>
+                                <h2>Adrien RICHARD</h2>
+                                <h1>Eat, Sleep, Code, Repeat</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- home-banner -->
+
+        <div id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="section-title">
+                            <h1>Adrien RICHARD</h1>
+                            <h4 lang="en">Developper, Tinkerer</h4>
+                            <h4 lang="fr">Developpeur, bricoleur</h4>
+                        </div>
+                        <div class="about-info">
+                            <p lang="fr">Passionné 🌍, je prends grand plaisir à explorer tous les champs de
+                                l’informatique 💻 par curiosité.
+                                Ma soif de savoir et mon envie de le transmettre 👨‍🏫 sont de vrais atouts pour le
+                                travail
+                                de groupe. Curieux, j'aime expérimenter diverses activités informatiques comme la
+                                réalité
+                                virtuelle ou augmentée 🕶, ou encore l'impression 3D pour me permettre de créer des
+                                projets
+                                innovants 📄. Mes scolarités 📚 et voyages à l’étranger ✈m’ont aussi permis d’acquérir
+                                une
+                                grande ouverture d’esprit ainsi que de devenir bilingue en anglais.
+                            </p>
+                            <p lang="en">Passionate🌍, I take great pride in exploring all the domains of computer
+                                science 💻 for the
+                                pleasure of my own curiosity. My desire to learn and my ability to share 👨‍🏫 are real
+                                benefits
+                                for group work. Curious, I love experimenting IT activities like virtual and augmented
+                                reality
+                                🕶 as well as 3D printing which allows me to create innovating projects 📄. My
+                                scholarships
+                                📚 in foreign countries ✈also allowed me to become open minded and become bilingual in
+                                English.</p>
+                            <!-- <div class="signature">
+                                    <h1>AR</h1>
+                                </div>-->
+                        </div>
+                        <address>
+                            <p>
+                                <span lang="fr">📧 Email:</span>
+                                <span lang=en>📧 Mail:</span> richardadrien0@gmail.com </p>
+                            <p>
+                                <span lang="fr">📱 Telephone:</span>
+                                <span lang="en">📱 Phone:</span> +33 (0)7 81 77 01 05</p>
+                            <p>
+                                <span lang="fr">🌍 Addresse:</span>
+                                <span lang="en">🌍 Address:</span> Grenoble, France</p>
+                        </address>
+                        <ul class="achievement">
+                            <li class="achievement-info">
+                                <span class="counter">8</span>
+                                <h4 lang="fr">Projet terminés</h4>
+                                <h4 lang="en">Finished Projects</h4>
+                            </li>
+                            <li class="achievement-info">
+                                <span class="counter counter2">25000</span>
+                                <h4 lang="fr">Lignes de code ecrites</h4>
+                                <h4 lang="en">Lines of code written</h4>
+                            </li>
+                            <li class="achievement-info">
+                                <span class="counter counter3">3</span>
+                                <h4 lang="fr">Projets majeur en cours</h4>
+                                <h4 lang="en">Active main projects</h4>
+                            </li>
+                        </ul>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <figure>
+                            <embed src="https://wakatime.com/share/@Adrien/069ebf92-4e0a-4ac3-93bd-516ff27b3bcb.svg">
+                        </figure>
+
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- about section -->
+
+        <div id="skill" class="skill-section bg-color section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="section-content">
+                            <div class="section-title">
+                                <h1 lang="fr">Mes Competences</h1>
+                                <h1 lang="en">My Skills</h1>
+                            </div>
+                            <div class="text-info">
+                                <h4 lang="fr">Toujours entrain d'apprendre.</h4>
+                                <h4 lang="en">Always learning.</h4>
+                            </div>
+                            <div class="progress-content">
+                                <div class="rating-bar bar-left">
+                                    <h3>Techno</h3>
+                                    <div v-for="s in skills">
+
+                                        <!--******-->
+                                        <label>{{ s.title }}</label>
+                                        <span class="rating-count pull-right">{{ s.percent }}%</span>
+                                        <div class="skill-progress">
+                                            <div class="progress">
+                                                <div class="progress-bar" :class=s.color role="progressbar" :aria-valuenow=s.percent
+                                                    aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill rating-bar bar-right">
+                                    <h3>Software</h3>
+                                    <!--******-->
+                                    <label>Office</label>
+                                    <span class="rating-count pull-right">85%</span>
+                                    <div class="skill-progress">
+                                        <div class="progress">
+                                            <div class="progress-bar bar15" role="progressbar" aria-valuenow="85"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--******-->
+                                    <label>Unity3D</label>
+                                    <span class="rating-count pull-right">75%</span>
+                                    <div class="skill-progress">
+                                        <div class="progress">
+                                            <div class="progress-bar bar17" role="progressbar" aria-valuenow="75"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--******-->
+                                    <label>Visual Studio</label>
+                                    <span class="rating-count pull-right">70%</span>
+                                    <div class="skill-progress">
+                                        <div class="progress" style="color: black">
+                                            <div class="progress-bar bar19" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--******-->
+                                    <label>Suite Adobe</label>
+                                    <span class="rating-count pull-right">45%</span>
+                                    <div class="skill-progress">
+                                        <div class="progress">
+                                            <div class="progress-bar bar21" role="progressbar" aria-valuenow="45"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--******-->
+                                    <label>Solidworks</label>
+                                    <span class="rating-count pull-right">30%</span>
+                                    <div class="skill-progress">
+                                        <div class="progress">
+                                            <div class="progress-bar bar23" role="progressbar" aria-valuenow="30"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="language-skill">
+                                <div class="text-info">
+                                    <h4 lang="fr">Langues</h4>
+                                    <h4 lang="en">Languages</h4>
+                                </div>
+                                <ul>
+                                    <li class="chart" data-percent="100">
+                                        <span class="percent"></span>
+                                        <h5 lang="fr">Anglais</h5>
+                                        <h5 lang="en">English</h5>
+                                    </li>
+                                    <li class="chart" data-percent="100">
+                                        <span class="percent percent1"></span>
+                                        <h5 lang="fr">Francais</h5>
+                                        <h5 lang="en">French</h5>
+                                    </li>
+                                    <li class="chart" data-percent="40">
+                                        <span class="percent percent2"></span>
+                                        <h5 lang="fr">Espagnol</h5>
+                                        <h5 lang="en">Spanish</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- more skill -->
+                        </div>
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- skill section -->
+
+        <div id="exprience" class="exprience-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="section-title">
+                            <h1 lang="fr">Mon Exprience</h1>
+                            <h1 lang="en">My Experiences</h1>
+                        </div>
+                        <div class="text-info">
+                            <h4 lang="fr">Motivé & travailleur</h4>
+                            <h4 lang="en">Motivated & Hard worker</h4>
+                        </div>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/exprience/ss.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3 lang="fr">Stagiaire développement logiciel embarqué</h3>
+                                <h3 lang="en">Internship embedded software development</h3>
+                                <h5 lang="fr">Janvier - Mars,2018 (2 Mois)</h5>
+                                <h5 lang="en">January - Mars, 2018 (2 Months)</h5>
+                                <p lang="fr">Simulation de capteurs dans un projet de simulateur de vol de drone✈.
+                                    Utilisation de Nucleo STM32 ⚡ pour simuler les communications entre l'autopilote et
+                                    les différents capteurs (IMU, Baromètre, Compas, GPS). </p>
+                                <p lang="en">Sensor simulation for a drone flight simulator project ✈.
+                                    Use of Nucleo STM32 boards ⚡ for the simulation and communication between the
+                                    autopilot and the sensor (IMU, Baromètre, Compas, GPS).
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/exprience/ar.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3 lang="fr">Stagiaire développement mobile Xamarin</h3>
+                                <h3 lang="en">Internship mobile developpement Xamarin</h3>
+                                <h5 lang="fr">Mai - Septembre,2018 (4 Mois)</h5>
+                                <h5 lang="en">May - September, 2018 (4 Months)</h5>
+                                <p lang="fr">Création d'une application de réception de notification. Son but est de
+                                    permettre à des professionnels
+                                    du tourisme et de l'hôtellerie d'être prévenu extrêmement rapidement de leurs
+                                    nouvelles
+                                    réservations. Elle permet aussi de faire un hub centralisé de tous leurs sites web
+                                    permanents
+                                    et de gérer leurs activités.
+                                    <br>
+                                    <br> 📱 - Application mobile cross-platform en techologie Xamarin.Forms
+                                    <br> ☁ - Visual Studio AppCenter pour la gestion des notifications, analytics et
+                                    rapport
+                                    de bugs/crashs
+                                    <br> ☁ - REST Api back-end, Asp.Net webAPi
+                                    <br> 💾 - Sauvegarde des notifications, SQLServer
+                                    <br> 🌐 - Gestion des appareils pour l'utilisateur grâce à un site en Asp.Net
+                                </p>
+                                <p lang="en">Creation of an application to receive notifications, in order to allow
+                                    professionals of the
+                                    tourism and the hotel industry to be warned extremely quickly of their new
+                                    bookings.
+                                    the app also contains a central hub of all their websites allowing to manage their
+                                    activity.
+                                    <br>
+                                    <br> 📱 - Cross-platform mobile application in Xamarin.Forms
+                                    <br> ☁ - Visual Studio AppCenter for notifications management, analytics and crash
+                                    reporting
+                                    <br> ☁ - REST Api back-end, Asp.Net webAPi
+                                    <br> 💾 - Notifications backup, SQLServer
+                                    <br> 🌐 - Device management for the end users thanks to an Asp.Net site </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/exprience/photo.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3 lang="fr">Photographe</h3>
+                                <h3 lang="en">Photography</h3>
+                                <h5 lang="fr">Aout, 2015 - Actuel (3+ Ans)</h5>
+                                <h5 lang="en">August, 2015 - Current (3+ Years)</h5>
+                                <p lang="fr">- Photographe de marriage et nature, j'apprecie particulierement faire des
+                                    photos de ciel
+                                    etoilée
+                                </p>
+                                <p lang="en">- Wedding photo, nature and motly stary night skys </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/exprience/mc.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3 lang="fr">Equipier Polyvalent, MacDonald's</h3>
+                                <h3 lang="en">Crewman, MacDonald's</h3>
+                                <h5 lang="fr">Aout, 2017 (1 Mois)</h5>
+                                <h5 lang="en">August, 2017 (1 Month)</h5>
+                                <p lang="fr">
+                                    - Apprendre et effectuer les differents taches d'un restaurant fastfood
+                                    <br> - Gestion du stress et de la pression
+                                </p>
+                                <p lang="en">
+                                    - Learning the diffrents tasks in a fastFood restaurant
+                                    <br> - Stress management
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="exprience">
+                            <div class="exprience-image">
+                                <img class="img-responsive" src="images/exprience/riotinto.png" alt="Image">
+                            </div>
+                            <div class="exprience-info">
+                                <h3 lang="fr">Stage, RioTinto Alcan</h3>
+                                <h3 lang="en">Internship, RioTinto Alcan</h3>
+                                <h5 lang="fr">Novembre, 2013 (1 Mois)</h5>
+                                <h5 lang="en">November, 2013 (1 Month)</h5>
+                                <p lang="fr">
+                                    - Stage d'observation.
+                                    <br> - Observation de l'organisation des differts secteurs dans une grande
+                                    entreprise.
+                                </p>
+                                <p lang="en">
+                                    - Internship to discover the company, the purpose was to understand the
+                                    organization of a company and its functioning.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- exprience section -->
+
+        <div id="education" class="education-section bg-color section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="section-content">
+                            <div class="section-title">
+                                <h1>Education</h1>
+                            </div>
+                            <div class="text-info">
+                                <h4>France & International</h4>
+                            </div>
+                            <hr>
+                            <div class="education-info">
+                                <img class="img-responsive" src="images/education/epsi.png" alt="Image">
+                                <h3>EPSI, Grenoble, France</h3>
+                                <h5 lang="fr">Master informatique</h5>
+                                <h5 lang="en">Master DevOps IT</h5>
+                                <h6>2017 - 2022</h6>
+                                <!-- <p>Lorem ipsum </p> -->
+                            </div>
+                            <hr>
+                            <div class="education-info">
+                                <img class="img-responsive" src="images/education/fbuisson.png" alt="Image">
+                                <h3 lang="fr">Lycée Ferdinand Buisson, Voiron, France</h3>
+                                <h3 lang="en">Ferdinand Buisson High School, Voiron, France</h3>
+                                <h5 lang="fr">Lycée</h5>
+                                <h5 lang="en">High School</h5>
+                                <h6>2014 - 2017</h6>
+                                <p lang="fr">Baccalaureat Sience de l'ingenieure, option informqtique, obtenue avec
+                                    mention</p>
+                                <p lang="en">French Scientific Baccalauréat, Coding, Science of enginering,Obtained
+                                    whit distinctions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- education section -->
+
+        <div id="portfolio" class="portfolio-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="section-title">
+                            <h1>Portfolio</h1>
+                        </div>
+                        <div class="text-info">
+                            <h4 lang="fr">Mes projets recents</h4>
+                            <h4 lang="en">My recent projects</h4>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="row">
+                                <!--col1-->
+                                <div class="col-sm-6">
+                                    <!--deadmau5-->
+                                    <div class="portfolio-item">
+                                        <img class="img-responsive" src="images/portfolio/deadmau5.jpg" alt="Image">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-info">
+                                                <a lang="fr" class="btn-sm btn-danger"
+                                                    href="https://www.testing.adrienrichard.com/Deadmau5/index.php">Lien</a>
+                                                <a lang="en" class="btn-sm btn-danger"
+                                                    href="https://www.testing.adrienrichard.com/Deadmau5/index.php">Link</a>
+                                                <h3>Deadmau5</h3>
+                                                <p lang="fr"> Fan-Site de mon artist Preferé</p>
+                                                <p lang="en"> Fan-Site of my favorite artist</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--devhelper-->
+                                    <div class="portfolio-item">
+                                        <img class="img-responsive" src="images/portfolio/devhelper.png" alt="Image">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-info">
+                                                <a lang="fr" class="btn-sm btn-danger"
+                                                    href="https://www.testing.adrienrichard.com/DevHelper/index.php">Lien</a>
+                                                <a lang="en" class="btn-sm btn-danger"
+                                                    href="https://www.testing.adrienrichard.com/DevHelper/index.php">Link</a>
+                                                <h3>DevHelper</h3>
+                                                <p lang="fr"> Dev Helper est une platform web avec des outils pour
+                                                    aider
+                                                    les developpeurs</p>
+                                                <p lang="en"> Dev Helper is a web platform whit common tools to
+                                                    help devs</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--karamin-->
+                                    <div class="portfolio-item">
+                                        <img class="img-responsive" src="images/portfolio/1.png" alt="Image">
+                                        <div class="portfolio-overlay">
+                                            <div class="github-widget" data-repo="Mrgove10/Karamin"></div>
+                                            <div class="portfolio-info">
+                                                <h3>Karamin</h3>
+                                                <p lang="fr">Simple application Xamarin pour decoder des diagramms de
+                                                    karnaug.
+                                                </p>
+                                                <p lang="en">Simple Xamarin app to solve karnaug Maps.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--col2-->
+                                <div class="col-sm-6">
+
+                                    <!--laboepsi-->
+                                    <div class="portfolio-item">
+                                        <img class="img-responsive" src="images/portfolio/1.png" alt="Image">
+                                        <div class="portfolio-overlay">
+                                            <div class="portfolio-info">
+                                                <a lang="fr" class="btn-sm btn-danger"
+                                                    href="https://testing.adrienrichard.com/LaboEpsi/">Lien</a>
+                                                <a lang="en" class="btn-sm btn-danger"
+                                                    href="https://testing.adrienrichard.com/LaboEpsi/">Link</a>
+                                                <h3>Labo Epsi</h3>
+                                                <p lang="fr">Application Mobile de gestion d'emprunt. Made in
+                                                    Xamarin.Forms & web
+                                                    service
+                                                    REST.
+                                                </p>
+                                                <p lang="en">Mobile app and web platform to organise stock in the
+                                                    school experimentation lab.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--hololens-->
+                                    <div class="portfolio-item">
+                                        <img class="img-responsive" src="images/portfolio/3.png" alt="Image">
+                                        <div class="portfolio-overlay">
+                                            <div class="github-widget" data-repo="Mrgove10/Hololens-Demo-Salon"></div>
+                                            <div class="portfolio-info">
+
+                                                <h3>Demo Hololens</h3>
+                                                <p lang="fr">Demo destiner à un salon de l'etudiant pour presenter les
+                                                    differents
+                                                    fonctionaliter
+                                                    des Hololens. Codé en C# avec Unity3D et le Microsoft Holo Toolkit
+                                                </p>
+                                                <p lang="en">Simple Hololens demo I made for school. Was used in a
+                                                    salon to show how to make simple apps on teh hololens and to
+                                                    demonstrate the technologie</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--pako-->
+                                    <div class="portfolio-item">
+                                        <img class="img-responsive" src="images/portfolio/pako.jpg" alt="Image">
+                                        <div class="portfolio-overlay">
+                                            <div class="github-widget" data-repo="Mrgove10/Pako"></div>
+                                            <div class="portfolio-info">
+                                                <a lang="fr" class="btn-sm btn-danger"
+                                                    href="https://www.testing.adrienrichard.com/Pako/pages/index.php">Lien</a>
+                                                <a lang="en" class="btn-sm btn-danger"
+                                                    href="https://www.testing.adrienrichard.com/Pako/pages/index.php">Link</a>
+                                                <h3>Pako</h3>
+                                                <p lang="fr">Wep App destiner a cree des evenements pour des
+                                                    utilisateur au sent d'un meme campus.</p>
+                                                <p lang="en">Wep platform to creat events for people in the same school
+                                                    campus.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- portfolio content -->
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+
+        <div id="events" class="event-section bg-color section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="section-title">
+
+                            <h1 lang="fr">Évènements</h1>
+                            <h1 lang="en">Events</h1>
+                        </div>
+                        <div class="text-info">
+                            <h4 lang="fr">En cours de codage</h4>
+                            <h4 lang="en">Currently coding on it</h4>
+                        </div>
+                        <div class="event-content">
+                            <!-- body -->
+                        </div>
+                    </div>
+                    <!-- event content -->
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </div>
+    <!-- event section -->
+
+    <div id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="section-content">
+                        <div class="section-title">
+                            <h1>Contact</h1>
+                        </div>
+                        <div class="text-info">
+                            <h4 lang="fr">Restons en contact !</h4>
+                            <h4 lang="en">Let's stay in touch !</h4>
+                        </div>
+                        <div class="address">
+                            <ul>
+                                <li>
+                                    <div class="icons icons1">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 lang="fr">Numéro Mobile</h3>
+                                    <h3 lang="en">Phone Number</h3>
+                                    <p>+33 (0)7 81 77 01 05</p>
+                                </li>
+                                <li>
+                                    <div class="icons icons2">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 lang="fr">Adresse Email</h3>
+                                    <h3 lang="en">Email Adress</h3>
+                                    <a href="mailto:richardadrien0@gmail.com">richardadrien0@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </div>
+    <!-- contact section -->
+
+
+    <div id="footer">
+        <div class="container">
+            <div class="footer">
+                <p> &copy; 2018
+                    <a href="#">Adrien RICHARD.</a> All Rights Reserved</p>
+                <script>
+                    (function (i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r;
+                        i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date();
+                        a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0];
+                        a.async = 1;
+                        a.src = g;
+                        m.parentNode.insertBefore(a, m)
+                    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+                    ga('create', 'UA-81747128-1', 'auto');
+                    ga('send', 'pageview');
+                </script>
+            </div>
+        </div>
+        <!-- contaner -->
+    </div>
+    <!-- footer -->
+    </div>
+    <!-- main wrapper -->
+
+    <!-- JS -->
+    <script src="js/vue.js"></script>
+    <script src="js/bounce.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/inview.min.js"></script>
+    <script src="js/easypiechart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/GithubRepoWidget.min.js"></script>
+
+    <script>
+        $('[lang="fr"]').hide();
+
+        $('#switch-lang').click(function () {
+            console.log("Language changed");
+            $('[lang="fr"]').toggle();
+            $('[lang="en"]').toggle();
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+        /*
+        $.getJSON('https://api.github.com/users/Mrgove10', function(data) {
+            console.log(data);
+            console.log(data["public_repos"]);
+        });
+        */
+    </script>
+</body>
+
+</html>
