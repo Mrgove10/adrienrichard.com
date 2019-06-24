@@ -306,11 +306,10 @@
                                 <h4 lang="fr">Toujours entrain d'apprendre.</h4>
                                 <h4 lang="en">Always learning.</h4>
                             </div>
-                            <div class="progress-content">
+                            <div class="progress-content" id="progress-content">
                                 <div class="rating-bar bar-left">
                                     <h3>Techno</h3>
                                     <div v-for="s in skills">
-
                                         <!--******-->
                                         <label>{{ s.title }}</label>
                                         <span class="rating-count pull-right">{{ s.percent }}%</span>
@@ -376,30 +375,18 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
 
-
-                            <div class="language-skill">
+                            <div class="language-skill" id="language-skill">
                                 <div class="text-info">
                                     <h4 lang="fr">Langues</h4>
                                     <h4 lang="en">Languages</h4>
                                 </div>
                                 <ul>
-                                    <li class="chart" data-percent="100">
-                                        <span class="percent"></span>
-                                        <h5 lang="fr">Anglais</h5>
-                                        <h5 lang="en">English</h5>
-                                    </li>
-                                    <li class="chart" data-percent="100">
-                                        <span class="percent percent1"></span>
-                                        <h5 lang="fr">Francais</h5>
-                                        <h5 lang="en">French</h5>
-                                    </li>
-                                    <li class="chart" data-percent="40">
-                                        <span class="percent percent2"></span>
-                                        <h5 lang="fr">Espagnol</h5>
-                                        <h5 lang="en">Spanish</h5>
+                                    <li v-for="l in langs" class="chart" :data-percent=l.percent>
+                                        <span class="percent" :class=l.color></span>
+                                        <h5 lang="fr">{{ l.titlefr }}</h5>
+                                        <h5 lang="en">{{ l.titleen }}</h5>
                                     </li>
                                 </ul>
                             </div>
