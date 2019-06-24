@@ -253,7 +253,7 @@ a:focus, button:focus, .btn:focus,
     background-color: #873e95;
 }
 
-/#navigation .navbar-nav>li:nth-child(8) {
+#navigation .navbar-nav>li:nth-child(8) {
     background-color: #3c70b4;
 }
 
