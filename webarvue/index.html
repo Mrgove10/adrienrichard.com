@@ -30,10 +30,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Sacramento" rel="stylesheet">
 
     <!-- icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.html">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.html">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.html">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../images/ico/apple-touch-icon-57-precomposed.html">
     <link rel="stylesheet" type="text/css" media="screen" href="css/flag-icon.css">
 
 
@@ -244,9 +240,6 @@
                                 scholarships
                                 📚 in foreign countries ✈also allowed me to become open minded and become bilingual in
                                 English.</p>
-                            <!-- <div class="signature">
-                                    <h1>AR</h1>
-                                </div>-->
                         </div>
                         <address>
                             <p>
@@ -266,7 +259,7 @@
                                 <h4 lang="en">Finished Projects</h4>
                             </li>
                             <li class="achievement-info">
-                                <span class="counter counter2">25000</span>
+                                <span class="counter counter2">35000</span>
                                 <h4 lang="fr">Lignes de code ecrites</h4>
                                 <h4 lang="en">Lines of code written</h4>
                             </li>
@@ -306,10 +299,10 @@
                                 <h4 lang="fr">Toujours entrain d'apprendre.</h4>
                                 <h4 lang="en">Always learning.</h4>
                             </div>
-                            <div class="progress-content" id="progress-content">
-                                <div class="rating-bar bar-left">
+                            <div class="progress-content" >
+                                <div class="rating-bar bar-left" id="technoSkills">
                                     <h3>Techno</h3>
-                                    <div v-for="s in skills">
+                                    <div v-for="s in Tskills">
                                         <!--******-->
                                         <label>{{ s.title }}</label>
                                         <span class="rating-count pull-right">{{ s.percent }}%</span>
@@ -322,55 +315,17 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill rating-bar bar-right">
+                                <div class="skill rating-bar bar-right" id="softwareSkills">
                                     <h3>Software</h3>
-                                    <!--******-->
-                                    <label>Office</label>
-                                    <span class="rating-count pull-right">85%</span>
-                                    <div class="skill-progress">
-                                        <div class="progress">
-                                            <div class="progress-bar bar15" role="progressbar" aria-valuenow="85"
-                                                aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--******-->
-                                    <label>Unity3D</label>
-                                    <span class="rating-count pull-right">75%</span>
-                                    <div class="skill-progress">
-                                        <div class="progress">
-                                            <div class="progress-bar bar17" role="progressbar" aria-valuenow="75"
-                                                aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--******-->
-                                    <label>Visual Studio</label>
-                                    <span class="rating-count pull-right">70%</span>
-                                    <div class="skill-progress">
-                                        <div class="progress" style="color: black">
-                                            <div class="progress-bar bar19" role="progressbar" aria-valuenow="70"
-                                                aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--******-->
-                                    <label>Suite Adobe</label>
-                                    <span class="rating-count pull-right">45%</span>
-                                    <div class="skill-progress">
-                                        <div class="progress">
-                                            <div class="progress-bar bar21" role="progressbar" aria-valuenow="45"
-                                                aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--******-->
-                                    <label>Solidworks</label>
-                                    <span class="rating-count pull-right">30%</span>
-                                    <div class="skill-progress">
-                                        <div class="progress">
-                                            <div class="progress-bar bar23" role="progressbar" aria-valuenow="30"
-                                                aria-valuemin="0" aria-valuemax="100">
+                                    <div v-for="s in Sskills">
+                                        <!--******-->
+                                        <label>{{ s.title }}</label>
+                                        <span class="rating-count pull-right">{{ s.percent }}%</span>
+                                        <div class="skill-progress">
+                                            <div class="progress">
+                                                <div class="progress-bar" :class=s.color role="progressbar" :aria-valuenow=s.percent
+                                                    aria-valuemin="0" aria-valuemax="100">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -830,6 +785,7 @@
     <script src="js/main.js"></script>
     <script src="js/GithubRepoWidget.min.js"></script>
 
+    <!-- language cnaging script TODO: change to another file-->
     <script>
         $('[lang="fr"]').hide();
 
@@ -841,13 +797,7 @@
 
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
-        })
-        /*
-        $.getJSON('https://api.github.com/users/Mrgove10', function(data) {
-            console.log(data);
-            console.log(data["public_repos"]);
         });
-        */
     </script>
 </body>
 
