@@ -21,6 +21,9 @@
             "aot": false,
             "assets": [
               "src/images/ico/favicon.ico",
+              "src/images/education/epsi.png",
+              "src/images/bg/Banner.jpg",
+              "src/images/bg/trianglify.jpg",
               "src/assets"
             ],
             "styles": [
@@ -32,15 +35,16 @@
               "src/assets/css/flag-icon.css"              
             ],
             "scripts": [
+              "src/assets/js/bounce.min.js",
               "src/assets/js/jquery.min.js",
               "src/assets/js/jquery-ui.min.js",
               "src/assets/js/bootstrap.min.js",
-              "src/assets/js/counterup.min.js",
-              "src/assets/js/easypiechart.js",
-              "src/assets/js/inview.min.js",
               "src/assets/js/waypoints.min.js",
-              "src/assets/js/GithubRepoWidget.min.js",
-              "src/assets/js/main.js"
+              "src/assets/js/counterup.min.js",
+              "src/assets/js/inview.min.js",
+              "src/assets/js/easypiechart.js",
+              "src/assets/js/main.js",
+              "src/assets/js/GithubRepoWidget.min.js"
             ]
           },
           "configurations": {
