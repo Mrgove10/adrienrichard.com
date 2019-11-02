@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "v2/",
+			"name": "V2"
+		},
+		{
+			"path": "adrienrichard/",
+			"name": "Angular Version"
+		},
+		{
+			"path": "classicweb/",
+			"name": "standard"
+		}
+	],
+	"settings": {}
+}
