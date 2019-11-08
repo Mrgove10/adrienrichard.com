@@ -10,7 +10,15 @@
  })
  */
 TagCloud(".cloud",
- ["hello","test","adrien","hello","test","adrien","hello",
- "test","adrien","hello","test","adrien","hello","test","adrien",
- "adrien","hello","test","adrien","hello","test","adrien","hello"],
- { radius: 250});
+   ["hello", "test", "adrien", "hello", "test", "adrien", "hello",
+      "test", "adrien", "hello", "test", "adrien", "hello", "test", "adrien",
+      "adrien", "hello", "test", "adrien", "hello", "test", "adrien", "hello"],
+   {
+      radius: 250,
+      initSpeed: 'normal',
+      maxSpeed: 'fast',
+      keep: false
+   });
+
+
+   GitHubCalendar(".calendar", "Mrgove10", { responsive: true });
