@@ -170,6 +170,7 @@ textarea {
 	line-height: 20px;
 }
 
+/*Colors*/
 .console .output span.grey {
 	color: #cccccc;
 }
@@ -184,6 +185,18 @@ textarea {
 
 .console .output span.blue {
 	color: #3498db;
+}
+
+.console .output span.purple {
+	color: #b19cd9;
+}
+
+.console .output span.yellow {
+	color: #ffff88;
+}
+
+.console .output span.orange {
+	color: #fed8b1;
 }
 
 .console .output pre {
@@ -225,7 +238,7 @@ textarea {
 
 span.seperator {
 	font-size: 12px;
-	animation: changeColor 10s ease-in-out infinite;
+	animation: changeColor 7s ease-in-out infinite;
 }
 
 .pong {
