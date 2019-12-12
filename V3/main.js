@@ -27,7 +27,7 @@ input.keypress(function (e) {
 			projects();
 			input.val('');
 		} else if (inputVal == "experiences") {
-			projects();
+			experiences();
 			input.val('');
 		} else if (inputVal == "time") {
 			getTime();
@@ -102,6 +102,7 @@ function help() {
 		'>say',
 		'>info',
 		'>exit'];
+		seperator();
 	for (var i = 0; i < commandsArray.length; i++) {
 		var out = '<span>' + commandsArray[i] + '</span><br/>'
 		Output(out);
@@ -113,22 +114,50 @@ function help() {
  */
 function projects() {
 	var projectArray = ['>Projects:',
-		'<span class="blue"><h3>Furmap.net</h3></span>',
-		'<a href="https://furmap.net">furmap.net</a>',
+		'<u>Furmap.net</u>',
 		'A world map with more then 500 users !',
-		'<span class="blue"><h3>Patrimoine Grenoblois</h3></span>',
-		'<a href="https://play.google.com/store/apps/details?id=com.AR.grenoble.patrimoine&hl=fr">Play store</a>',
-		'https://github.com/Mrgove10/Hololens-Demo-Salon',
-		'https://github.com/Mrgove10/iowebinterface',
-		'https://github.com/Mrgove10/Mine.Js',
-		'https://github.com/Mrgove10/SGJ2019',
-	]
+		'<a href="https://furmap.net" target="_blank">furmap.net</a>',
+		'<br>',
+		//---
+		'===',
+		'<u>Patrimoine Grenoblois</u>',
+		'ionic app to discover Grenoble',
+		'<a href="https://play.google.com/store/apps/details?id=com.AR.grenoble.patrimoine&hl=fr" target="_blank">Play store</a>',
+		'<br>',
+		//---
+		'===',
+		'<u>Hololens Demo</u>',
+		'<a href="https://github.com/Mrgove10/Hololens-Demo-Salon" target="_blank">Github</a>',
+		'Hololens demo application for trade shows',
+		'<br>',
+		//---
+		'===',
+		'<u>Web Interface to start remote computers</u>',
+		'<a href="https://github.com/Mrgove10/iowebinterface" target="_blank">Github</a>',
+		'Web interface to start/stop a server remotly',
+		'<br>',
+		//---
+		'===',
+		'<u>Minecraft MiniGame</u>',
+		'<a href="https://github.com/Mrgove10/Mine.Js" target="_blank">Github</a>',
+		'Minecraft clone in javascript with Babylon.js',
+		'<br>',
+		//---
+		'===',
+		'<u>Video Game for a game jam</u>',
+		'<a href="https://github.com/Mrgove10/SGJ2019" target="_blank">Github</a>',
+		'Game made in unity in 48 hours. Goal was to show the risk of technology linked with medical treatments',
+	];
 	seperator();
 	for (var i = 0; i < projectArray.length; i++) {
-		var out = '<span>' + projectArray[i] + '</span><br/>'
-		Output(out);
+		if(projectArray[i] === '==='){
+			seperator();
+		}else{
+			var out = '<span>' + projectArray[i] + '</span><br/>';
+			Output(out);
+		}
+		
 	}
-	seperator();
 }
 
 /**
@@ -136,14 +165,20 @@ function projects() {
  */
 function experiences() {
 	var experiencesArray = ['>Experiences:',
-		'graaly'
-	]
+		'<span class="blue"><h3>Internship mobile developpement Xamarint</h3></span>',
+		'Alliance Reseau',
+		'<span class="blue"><h3>Internship embedded software developmentt</h3></span>',
+		'Squadrone system',
+		'<span class="blue"><h3>Video game developper & web developpmentt</h3></span>',
+		'Moovlab',
+		'<span class="blue"><h3>Mobie video game developpert</h3></span>',
+		'Moovlab',
+	];
 	seperator();
 	for (var i = 0; i < experiencesArray.length; i++) {
 		var out = '<span>' + experiencesArray[i] + '</span><br/>'
 		Output(out);
 	}
-	seperator();
 }
 
 function aboutMe() {
@@ -151,13 +186,13 @@ function aboutMe() {
 		'Hello there!',
 		'I\'m Adrien, Developper (web, apps and video games), tinkerer and diyer.',
 		'Currently studying at EPSI Grenoble (year 3/5)',
-		'<embed src="https://wakatime.com/share/@Adrien/069ebf92-4e0a-4ac3-93bd-516ff27b3bcb.svg" style="height :250px">'];
+		'<embed src="https://wakatime.com/share/@Adrien/069ebf92-4e0a-4ac3-93bd-516ff27b3bcb.svg" style="height :250px">'
+	];
 	seperator();
 	for (var i = 0; i < aboutMeArray.length; i++) {
 		var out = '<span>' + aboutMeArray[i] + '</span><br/>'
 		Output(out);
 	}
-	seperator();
 }
 
 function contactMe() {
@@ -173,7 +208,6 @@ function contactMe() {
 		var out = '<span>' + contactArray[i] + '</span><br/>'
 		Output(out);
 	}
-	seperator();
 }
 
 /**
@@ -181,6 +215,7 @@ function contactMe() {
  */
 function getTime() {
 	var today = new Date();
+	seperator();
 	Output('<span>' + today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate() + ' ' + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds() + '</span></br>');
 }
 
@@ -188,6 +223,7 @@ function getTime() {
  * Prints more infomation about the simulator
  */
 function info() {
+	seperator();
 	Output('<span>Console simulator by Mario Duarte https://codepen.io/MarioDesigns/pen/JbOyqe</span></br>');
 }
 
