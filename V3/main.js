@@ -115,7 +115,7 @@ function help() {
 function projects() {
 	var projectArray = ['>Projects:',
 		'<u>Furmap.net</u>',
-		'A world map with more then 500 users !',
+		'A world map with more then 800 users !',
 		'<a href="https://furmap.net" target="_blank">furmap.net</a>',
 		'<br>',
 		//---
@@ -167,12 +167,20 @@ function experiences() {
 	var experiencesArray = ['>Experiences:',
 		'<span class="blue"><h3>Internship mobile developpement Xamarint</h3></span>',
 		'Alliance Reseau',
+		'Xamarin app development with asp.net backend.',
+		'<i>C#, Asp.net</i>',
 		'<span class="blue"><h3>Internship embedded software developmentt</h3></span>',
 		'Squadrone system',
+		'Integrated software development, making a drone flight simulator',
+		'<i>C++, embeded software</i>',
 		'<span class="blue"><h3>Video game developper & web developpmentt</h3></span>',
 		'Moovlab',
-		'<span class="blue"><h3>Mobie video game developpert</h3></span>',
-		'Moovlab',
+		'Creating animation for video games and also a web interface to choose trainings',
+		'<i>cocos2dX, html, css</i>',
+		'<span class="blue"><h3>Mobie video game developper</h3></span>',
+		'Graaly',
+		'Mobile video game, using unity to create aumented reality experiences in most places.',
+		'<i>Unity3D, c#</i>',
 	];
 	seperator();
 	for (var i = 0; i < experiencesArray.length; i++) {
