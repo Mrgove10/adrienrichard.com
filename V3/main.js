@@ -35,6 +35,9 @@ input.keypress(function (e) {
 		} else if (inputVal == "info") {
 			info();
 			input.val('');
+		} else if (inputVal == "doge") {
+			doge();
+			input.val('');
 		} else if (inputVal.startsWith("say") === true) {
 			sayThis(inputVal);
 			input.val('');
@@ -102,7 +105,7 @@ function help() {
 		'>say',
 		'>info',
 		'>exit'];
-		seperator();
+	seperator();
 	for (var i = 0; i < commandsArray.length; i++) {
 		var out = '<span>' + commandsArray[i] + '</span><br/>'
 		Output(out);
@@ -150,13 +153,13 @@ function projects() {
 	];
 	seperator();
 	for (var i = 0; i < projectArray.length; i++) {
-		if(projectArray[i] === '==='){
+		if (projectArray[i] === '===') {
 			seperator();
-		}else{
+		} else {
 			var out = '<span>' + projectArray[i] + '</span><br/>';
 			Output(out);
 		}
-		
+
 	}
 }
 
@@ -224,6 +227,7 @@ function contactMe() {
 function getTime() {
 	var today = new Date();
 	seperator();
+	Output('<span>>time:<span><br>');
 	Output('<span>' + today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate() + ' ' + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds() + '</span></br>');
 }
 
@@ -232,6 +236,7 @@ function getTime() {
  */
 function info() {
 	seperator();
+	Output('<span>>info:<span><br>');
 	Output('<span>Console simulator by Mario Duarte https://codepen.io/MarioDesigns/pen/JbOyqe</span></br>');
 }
 
@@ -239,7 +244,14 @@ function info() {
  * ping, pong
  */
 function pong() {
-	Output('<span>pong</span></br><span class="pong"><b class="left">|</b><b class="right">|</b></span></br>');
+	seperator();
+	Output('<span>>pong:</span></br><span class="pong"><b class="left">|</b><b class="right">|</b></span></br>');
+}
+
+function doge() {
+	seperator();
+	Output('<span>>doge:<span><br>');
+	Output('<span><img src="doge text.svg"><span>');
 }
 
 /**
