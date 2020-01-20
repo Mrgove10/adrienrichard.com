@@ -17,6 +17,9 @@ input.keypress(function (e) {
 		} else if (inputVal == "about") {
 			aboutMe();
 			input.val('');
+		} else if (inputVal == "skills") {
+			skills();
+			input.val('');
 		} else if (inputVal == "contact") {
 			contactMe();
 			input.val('');
@@ -97,8 +100,9 @@ function help() {
 		'<span class="green">>about</span>',
 		'<span class="yellow">>contact</span>',
 		'<span class="purple">>projects</span>',
+		'<span class="orange">>skills</span>',
 		'<span class="blue">>experiences</span>',
-		'<span class="orange">>help</span>',
+		'>help',
 		'>ping',
 		'>time',
 		'>clear',
@@ -192,11 +196,15 @@ function experiences() {
 	}
 }
 
+/**
+ * About me function
+ */
 function aboutMe() {
 	var aboutMeArray = ['>About:',
 		'Hello there!',
 		'I\'m Adrien, Developper (web, apps and video games), tinkerer and diyer.',
-		'Currently studying at EPSI Grenoble (year 3/5)',
+		'Currently studying at EPSI Grenoble (year 3 out of 5)',
+		'<a href="https://wakatime.com/share/@Adrien/069ebf92-4e0a-4ac3-93bd-516ff27b3bcb.svg">Coding stats :</a>',
 		'<embed src="https://wakatime.com/share/@Adrien/069ebf92-4e0a-4ac3-93bd-516ff27b3bcb.svg" style="height :250px">'
 	];
 	seperator();
@@ -206,6 +214,9 @@ function aboutMe() {
 	}
 }
 
+/**
+ * Contact me function
+ */
 function contactMe() {
 	var contactArray = [
 		'>Contact:',
@@ -213,6 +224,29 @@ function contactMe() {
 		'[<a href="https://www.linkedin.com/in/adrien-rich">Linkedin</a>](https://www.linkedin.com/in/adrien-rich)',
 		'[<a href="mailto:"richardadrien0@gmail.com">Mail</a>](richardadrien0@gmail.com)',
 		'[<a href="https://wakatime.com/@Adrien">Wakatime</a>](https://wakatime.com/@Adrien)'
+	];
+	seperator();
+	for (var i = 0; i < contactArray.length; i++) {
+		var out = '<span>' + contactArray[i] + '</span><br/>'
+		Output(out);
+	}
+}
+
+function skills() {
+	var contactArray = [
+		'>Skills:',
+		'<b>Web</b>',
+		'Html, Css, Javascript, Bootstrap<br/>',
+		'<b>Databases</b>',
+		'Mysql, Sqlite, OracleDB, MicrosoftSQl<br/>',
+		'<b>Server</b>',
+		'Php, NodeJS, Linux<br/>',
+		'<b>Client Apps</b>',
+		'C#, Python<br/>',
+		'<b>Mobile Apps</b>',
+		'Xamarin, Ionic<br/>',
+		'<b>Video Games</b>',
+		'Unity3D<br/>',
 	];
 	seperator();
 	for (var i = 0; i < contactArray.length; i++) {
