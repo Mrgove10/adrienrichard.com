@@ -86,9 +86,9 @@ function clear() {
  * quits the console
  */
 function exit() {
-	Output('<span class="blue">Goodbye! Comeback soon.</span>');
+	Output('<span class="blue">Goodbye! Comeback soon.</span><br>');
 	setTimeout(function () {
-		window.open('https://github.com/Mrgove10');
+		window.open('https://www.linkedin.com/in/adrien-rich/');
 	}, 1000);
 }
 
@@ -282,6 +282,9 @@ function pong() {
 	Output('<span>>pong:</span></br><span class="pong"><b class="left">|</b><b class="right">|</b></span></br>');
 }
 
+/**
+ * Doge command
+ */
 function doge() {
 	seperator();
 	Output('<span>>doge:<span><br>');
