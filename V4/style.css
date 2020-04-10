@@ -150,10 +150,10 @@ a {
 .hint {
   font-size: 13px;
 }
-
+/*
 #p4 .hint {
   display: inherit !important;
-}
+}*/
 
 .hint a {
   color: yellow;
