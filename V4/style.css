@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'JBMono';
+  src: url('fonts/JetBrainsMono-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: "JBMono";
+  src: url("fonts/JetBrainsMono-Bold.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "JBMono";
+  src: url("fonts/JetBrainsMono-Italic.woff") format('woff');
+  font-style: italic;
+}
+
+* {
+  font-family: 'JBMono', 'open sans', sans-serif;
+}
+
 html,
 body,
 .page {
@@ -9,16 +30,12 @@ body,
   -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
-  color: #fff;
   overflow: hidden;
 }
-/*
-* {
-  font-family: 'JBMono', 'open sans', 'lato', 'helvetica', sans-serif;
-}*/
 
 .page {
   position: absolute;
+  color: #fff;
 }
 
 #p1 {
@@ -35,26 +52,32 @@ body,
 
 #p1 {
   background: darkslateblue;
+  color: black;
 }
 
 #p2 {
   background: tomato;
+  color: black;
 }
 
 #p3 {
   background: gold;
+  color: black;
 }
 
 #p4 {
   background: deeppink;
+  color: black;
 }
 
 #p5 {
   background: rebeccapurple;
+  color: black;
 }
 
 #p6 {
   background: green;
+  color: black;
 }
 
 #t2:target #p2,
@@ -123,7 +146,21 @@ ul .icon:hover {
   -o-transform: scale(1.2) !important;
 }
 
+/*
 ul {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 280px;
+  width: 10%;
+  padding: 0;
+  text-align: center;
+}
+*/
+#menu {
   position: fixed;
   z-index: 1;
   top: 0;
@@ -160,11 +197,6 @@ a {
 .hint {
   font-size: 13px;
 }
-
-/*
-#p4 .hint {
-  display: inherit !important;
-}*/
 
 .hint a {
   color: yellow;
@@ -225,5 +257,13 @@ a {
 }
 
 iframe {
-  border: 0
+  border: 0;
+}
+
+.pure {
+  border: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 7.5px;
+  margin-left: 7.5px;
 }
