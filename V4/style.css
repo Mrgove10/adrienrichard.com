@@ -12,10 +12,10 @@ body,
   color: #fff;
   overflow: hidden;
 }
-
+/*
 * {
-  font-family: 'open sans', 'lato', 'helvetica', sans-serif;
-}
+  font-family: 'JBMono', 'open sans', 'lato', 'helvetica', sans-serif;
+}*/
 
 .page {
   position: absolute;
@@ -160,6 +160,7 @@ a {
 .hint {
   font-size: 13px;
 }
+
 /*
 #p4 .hint {
   display: inherit !important;
@@ -221,4 +222,8 @@ a {
   -moz-transform: translateX(0) !important;
   -o-transform: translateX(0) !important;
   transition-delay: 1s;
+}
+
+iframe {
+  border: 0
 }
