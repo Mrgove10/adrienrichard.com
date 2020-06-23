@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+
+<head>
+    <title>Places i have visited</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mappa-mundi@0.0.5/dist/mappa.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+</head>
+
+<body style="margin: 0px">
+    <script>
+        var myMap;
+        var canvas;
+        var Locations;
+        var data;
+        var polygons;
+        var multiPolygons;
+        var placesData =
+            `
+            [{
+        "Name": "Miami",
+        "Lat": 25.76168,
+        "Long": -80.19179,
+        "Country": "United States"
+    },
+    {
+        "Name": "Grenoble",
+        "Lat": 45.188529,
+        "Long": 5.724524,
+        "Country": "France"
+    },
+    {
+        "Name": "port elizabeth",
+        "Lat": -33.960837,
+        "Long": 25.602242,
+        "Country": "South Africa"
+    },
+    {
+        "Name": "aukland",
+        "Lat": -36.84846,
+        "Long": 174.763332,
+        "Country": "New Zealand"
+    },
+    {
+        "Name": "alice springs",
+        "Lat": -23.698042,
+        "Long": 133.880747,
+        "Country": "Australia"
+    },
+    {
+        "Name": "honolulu",
+        "Lat": 21.306944,
+        "Long": -157.858333,
+        "Country": "United States"
+    },
+    {
+        "Name": "NY",
+        "Lat": 40.712775,
+        "Long": -74.005973,
+        "Country": "United States"
+    },
+    {
+        "Name": "machu pichu",
+        "Lat": -13.163141,
+        "Long": -72.544963,
+        "Country":"Peru"
+    },
+    {
+        "Name": "montreal",
+        "Lat": 45.501689,
+        "Long": -73.567256,
+        "Country":"Canada"
+    },
+    {
+        "Name": "prague",
+        "Lat": 50.075538,
+        "Long": 14.4378,
+        "Country": "Czech Rep."
+    },
+    {
+        "Name": "sicilia",
+        "Lat": 37.599994,
+        "Long": 14.015356,
+        "Country":"Italy"
+    },
+    {
+        "Name": "corsica",
+        "Lat": 42.039604,
+        "Long": 9.012893,
+        "Country":"France"
+    },
+    {
+        "Name": "montenegro",
+        "Lat": 42.708678,
+        "Long": 19.37439,
+        "Country":"Montenegro"
+    },
+    {
+        "Name": "Paris",
+        "Lat": 48.856614,
+        "Long": 2.352222,
+        "Country":"France"
+    },
+    {
+        "Name": "Sydney",
+        "Lat": -33.86882,
+        "Long": 151.209296,
+        "Country":"Australia"
+    },
+    {
+        "Name": "Cairns",
+        "Lat": -16.918551,
+        "Long": 145.778055,
+        "Country":"Australia"
+    },
+    {
+        "Name": "darwin",
+        "Lat": -12.46344,
+        "Long": 130.845642,
+        "Country":"Australia"
+    },
+    {
+        "Name": "mauritius",
+        "Lat": -20.348404,
+        "Long": 57.552152,
+        "Country":"NAN"
+    },
+    {
+        "Name": "London",
+        "Lat": 51.507351,
+        "Long": -0.127758,
+        "Country":"United Kingdom"
+    },
+    {
+        "Name": "Glasgow",
+        "Lat": 55.864237,
+        "Long": -4.251806,
+        "Country":"United Kingdom"
+    },
+    {
+        "Name": "Dublin",
+        "Lat": 53.349805,
+        "Long": -6.26031,
+        "Country":"Ireland"
+    },
+    {
+        "Name": "st lucia",
+        "Lat": 13.909444,
+        "Long": -60.978893,
+        "Country":"NAN"
+    },
+    {
+        "Name": "Monza",
+        "Lat": 45.5845,
+        "Long": 9.274449,
+        "Country":"Italy"
+    },
+    {
+        "Name": "quebec",
+        "Lat": 46.813878,
+        "Long": -71.207981,
+        "Country":"Canada"
+    },
+    {
+        "Name": "norway",
+        "Lat": 60.472024,
+        "Long": 8.468946,
+        "Country":"Norway"
+    },
+    {
+        "Name": "krakow",
+        "Lat": 50.06465,
+        "Long": 19.94498,
+        "Country":"Poland"
+    },
+    {
+        "Name": "hong kong",
+        "Lat": 22.318763,
+        "Long": 114.174593,
+        "Country":"Hong Kong"
+    },
+    {
+        "Name": "Gove",
+        "Lat": -12.1825,
+        "Long": 136.781944,
+        "Country":"Australia"
+    },
+    {
+        "Name": "Reykjavik",
+        "Lat": 64.1466,
+        "Long": -21.9426,
+        "Country": "Iceland"
+    },
+    {
+        "Name": "Vienna",
+        "Lat": 48.2082,
+        "Long": 16.3738,
+        "Country": "Austria"
+    },
+    {
+        "Name": "Copenhagen",
+        "Lat": 55.6761,
+        "Long": 12.5683,
+        "Country": "Denmark"
+    }
+]
+        `;
+
+        const mappa = new Mappa('Leaflet');
+        const options = {
+            lat: 0,
+            lng: 0,
+            zoom: 1.5,
+            style: "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+        }
+
+        function preload() {
+            data = loadJSON("world.med.geo.json");
+        }
+
+        function setup() {
+            canvas = createCanvas(window.innerWidth, window.innerHeight);
+            myMap = mappa.tileMap(options);
+            myMap.overlay(canvas)
+            fill(100, 100, 255);
+            myMap.onChange(drawPoint); // Only redraw the point when the map changes and not every frame.
+            Locations = JSON.parse(placesData);
+            var locationnames = [];
+            var myPolygons = [];
+            var myMultiPolygons = [];
+            Locations.forEach(element => {
+                locationnames.push(element.Country);
+            });
+            for (var i = 0; i < data.features.length; i++) {
+                var item = data.features[i];
+                var itemName = item.properties.name;
+                if (locationnames.includes(itemName)) {
+                    if (item.geometry.type == "Polygon") {
+                        myPolygons.push(item.geometry.coordinates);
+                    }
+                    if (item.geometry.type == "MultiPolygon") {
+                        myMultiPolygons.push(item.geometry.coordinates);
+                    }
+                }
+            }
+            polygons = myPolygons;
+            multiPolygons = myMultiPolygons;
+        }
+
+        function drawPoint() {
+            clear();
+
+            //poly
+            for (var i = 0; i < polygons.length; i++) {
+                beginShape();
+                fill(100, 100, 255, 127);
+                for (var j = 0; j < polygons[i][0].length; j++) {
+                    var pos = myMap.latLngToPixel(polygons[i][0][j][1], polygons[i][0][j][0]);
+                    vertex(pos.x, pos.y);
+                }
+                endShape();
+            }
+
+            //multiPolygons
+            for (var i = 0; i < multiPolygons.length; i++) {
+                for (var k = 0; k < multiPolygons[i].length; k++) {
+                    beginShape();
+                    fill(100, 100, 255, 127);
+                    tint(255, 127);
+                    for (var j = 0; j < multiPolygons[i][k][0].length; j++) {
+                        //      for (var j = 0; j < multiPolygons[i][k].length; j++){
+                        var pos = myMap.latLngToPixel(multiPolygons[i][k][0][j][1], multiPolygons[i][k][0][j][0]);
+                        //        var pos = myMap.latLngToPixel(multiPolygons[i][k][j][1], multiPolygons[i][k][j][0]);
+                        vertex(pos.x, pos.y);
+                    }
+                    endShape();
+                }
+            }
+
+            //idividual point
+            Locations.forEach(element => {
+                var i = myMap.latLngToPixel(element["Lat"], element["Long"]);
+                fill(100, 255, 100, 255);
+                var eli = ellipse(i.x, i.y, 15, 15);
+            });
+        }
+    </script>
+</body>
+
+</html>

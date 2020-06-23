@@ -158,7 +158,7 @@
         "Name": "hong kong",
         "Lat": 22.318763,
         "Long": 114.174593,
-        "Country":"China"
+        "Country":"Hong Kong"
     },
     {
         "Name": "Gove",
@@ -171,5 +171,17 @@
         "Lat": 64.1466,
         "Long": -21.9426,
         "Country": "Iceland"
+    },
+    {
+        "Name": "Vienna",
+        "Lat": 48.2082,
+        "Long": 16.3738,
+        "Country": "Austria"
+    },
+    {
+        "Name": "Copenhagen",
+        "Lat": 55.6761,
+        "Long": 12.5683,
+        "Country": "Denmark"
     }
 ]
