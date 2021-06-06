@@ -1,0 +1,8 @@
+@font-face {
+  font-family: JBMONO;
+  src: url(assets/fonts/JBMONO.woff2) format("woff2");
+}
+
+* {
+  font-family: "JBMONO", monospace, sans-serif;
+}

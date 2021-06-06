@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Grehack 2019",
+        "date": "date",
+        "where": "grenoble, France",
+        "description": "description",
+        "link": ""
+    },
+    {
+        "name": "Scientific Game Jam 2019",
+        "date": "date",
+        "where": "Grenoble, France",
+        "description": "description",
+        "link": ""
+    },
+    {
+        "name": "Batle Dev 2019",
+        "date": "date",
+        "where": "Online",
+        "description": "description",
+        "link": ""
+    },
+    {
+        "name": "Scientific Game Jam 2018",
+        "date": "date",
+        "where": "Grenoble, France",
+        "description": "description",
+        "link": ""
+    },
+    {
+        "name": "Batle Dev 2018",
+        "date": "date",
+        "where": "Online",
+        "description": "description",
+        "link": ""
+    },
+    {
+        "name": "Scientific Game Jam 2017",
+        "date": "date",
+        "where": "Grenoble, France",
+        "description": "description",
+        "link": ""
+    }
+]

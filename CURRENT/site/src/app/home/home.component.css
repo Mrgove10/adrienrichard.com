@@ -1,0 +1,24 @@
+#date {
+  display: inline;
+}
+
+.logocomp {
+  width: 150px;
+  max-width: 150px;
+  height: auto;
+  margin: 10px;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 75px;
+  
+}
+
+#socials a {
+  color: inherit;
+  margin: 20px;
+}

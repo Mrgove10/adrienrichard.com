@@ -1,0 +1,15 @@
+<a routerLink="/home">Home</a>
+<div *ngFor="let proj of projects">
+    <h3>{{proj.name}}</h3>
+    <small style="display: inline;">{{proj.date}}</small>
+    <p>{{proj.url}}</p>
+    <p>{{proj.description}}</p>
+    <p>{{proj.linkedinpost}}</p>
+    <div style="display: flex; flex-direction : row; flex-wrap: wrap;">
+        <!-- <lib-ngx-image-zoom [thumbImage]=assets/images/{{proj.imageFolder}}/{{image}}
+            [fullImage]=assets/images/{{proj.imageFolder}}/{{image}}>
+        </lib-ngx-image-zoom> -->
+        <img *ngFor='let image of proj.images' src='assets/images/{{proj.imageFolder}}/{{image}}'
+            style="height : 222px;" />
+    </div>
+</div>

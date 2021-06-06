@@ -1,0 +1,93 @@
+[
+    {
+        "compagny": "Graaly",
+        "compagnyWebsite": "https://graaly.com/en/home/",
+        "title": "Developper (Apprenteship)",
+        "startDate": "September 2019",
+        "endDate": "Present",
+        "description": "Working in a startup is very rewarding, you get to work on so many different things. Learned a lot during this apprenticeship, some technical and non-technical skills. Graaly creates a mobile app that allows you to create an escape game anywhere, at home, at work, public places...",
+        "missions": [
+            "Optimization of the current application",
+            "Transforming a NodeJs Api into an AWS Lambda API",
+            "Creating IOT Object that communicate with the app using Bluetooth",
+            "Creating a complete management platform for real time view of the players progress",
+            "Project Management with training interns"
+        ],
+        "imageName": "graaly.png",
+        "tech": [
+            "Quasar framework",
+            "AWS Lambda",
+            "Github actions",
+            "VueJs",
+            "Unity",
+            "MQTT",
+            "Arduino",
+            "NodeJS"
+        ]
+    },
+    {
+        "compagny": "Moovlab",
+        "title": "Developper",
+        "startDate": "July 2019",
+        "endDate": "August 2019",
+        "description": "This was my first real job! Learned a new game engine and how to create touch screen optimized interfaces. Moovlab makes a bracelet that is linked to a video game that allows you to do sports while having fun!",
+        "missions": [
+            "Modification of a Video Game",
+            "Creation of a touch based interface for selecting video games"
+        ],
+        "imageName": "moovlab.png",
+        "tech": [
+            "Cocos 2DX",
+            "Typescript & Javascript",
+            "Bootstrap"
+        ]
+    },
+    {
+        "compagny": "Squadrone Systems",
+        "compagnyWebsite": "Squadrone Systems",
+        "title": "Electronics developper (Internship)",
+        "startDate": "January 2019",
+        "endDate": "March 2019",
+        "description":"Working With Arduino is easy, working with bare metal microcontrollers is on another level! The goal of the internship was simulating sensors with STM32 Nucleo cards, including address allocation, registers, SPI protocol, not an easy task. I learned that I love Arduino, but this kind of electronics was a bit too much. Since then, I have learned much more.",
+        "imageName": "squadrone.png",
+        "missions": [
+            "Creating a simulation of real sensors inside drones",
+            "Recreating the memory allocation of different sensors",
+            "Using High speed SPI Bus"
+        ],
+        "tech": [
+            "C++",
+            "Nucloe 32",
+            "Spi Bus",
+            "Ociloscole and logic analysers"
+        ]
+    },
+    {
+        "compagny": "Aliance Reseaux",
+        "compagnyWebsite": "Squadrone Systems",
+        "title": "Mobile App Developper (Internship)",
+        "startDate": "May 2018",
+        "endDate": "September 2018",
+        "description": "This was my first working experience, 4 months working with the Microsoft stack to create a mobile app allowing camping owners to bee keep up to date on their new reservations. Alliance reseau create a backend service that allow camping’s, hotels, and over establishments to integrate payment into their website. They are one of the French leaders in for.",
+        "imageName": "alliance-reseaux.png",
+        "missions": [
+            "Creating a mobile app with Xamarin",
+            "Integrating the application with hocks in the existing API"
+        ],
+        "tech": [
+            "C#",
+            "Xamarin",
+            "Asp.Net",
+            "Sql Server"
+        ]
+    },
+    {
+        "compagny": "Your company here",
+        "compagnyWebsite": "Squadrone Systems",
+        "title": "Lets Chat About It !",
+        "startDate": "Present",
+        "endDate": "Future",
+        "description": "I am always looking for oportunities, lets chat about it !",
+        "imageName": "future.jpg"
+    }
+]

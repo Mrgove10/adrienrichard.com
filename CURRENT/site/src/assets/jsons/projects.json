@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Arcade",
+        "description": "Old screen + old pc + old games = arcade cabinet! ",
+        "url": "http://www/google.com",
+        "linkedinpost": "",
+        "date": "2021",
+        "imageFolder": "arcade",
+        "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg"
+        ]
+    },
+    {
+        "name": "Furmap.net",
+        "description": "With more then 12 000 users, furmap is now well known in the furry community. The first versionw as coded in only one day and has now been active for more then 2 years. This is, to date my most succesfull project and the one i am most prowd of",
+        "url": "https://furmap.net",
+        "linkedinpost": "",
+        "date": "2019",
+        "imageFolder": "furmap",
+        "images": [
+            "1.png",
+            "2.png"
+        ]
+    },
+    {
+        "name": "Weather Station",
+        "description": "With more then a miliopn rows of data and a 24/7 moinitoring of my appartement this weather station is holding up ! a combination of an esp32, node red and graphana i can monito the temperature of my appartement, inside and outside.",
+        "url": "https://github.com/Mrgove10/HomeIOT",
+        "linkedinpost": "",
+        "date": "2018",
+        "imageFolder": "weatherStation",
+        "images": [
+            "grafana.png",
+            "node-red.png",
+            "station_in.jpg",
+            "station.jpg"
+        ]
+    },
+    {
+        "name": "Htc Vive custom audio strap",
+        "description": "Sometimes the easier projects are the ones that are the most usefull. Using an old pair od headphones i was aible to create my own integratio audio solution for my VR headset. Mabey the quality is not as boog but at least it didn't cost me 150€",
+        "url": "",
+        "linkedinpost": "",
+        "date": "2021",
+        "imageFolder": "HTCAudio",
+        "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.png"
+        ]
+    },
+    {
+        "name": "CheapDeck",
+        "description": "Realy simple elctronics and 3D printin project, but also very usefull !",
+        "url": "",
+        "linkedinpost": "",
+        "date": "2021",
+        "imageFolder": "CheapDeck",
+        "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg"
+        ]
+    },
+    {
+        "name": "WikiGame",
+        "description": "Get from a random wikipedia page to another random one, only by clicking links on the pages. A simple but hard game !",
+        "url": "https://github.com/Mrgove10/wikigame.py",
+        "linkedinpost": "",
+        "date": "2020",
+        "imageFolder": "wikiGame",
+        "images": [
+            "1.png",
+            "2.png"
+        ]
+    },
+    {
+        "name": "Scientific Game Jam 2019",
+        "description": "making a game in 2 days is hard ! In this game jam we made a gam to sesbilise about the risqies of IOT devices for patients of chronical deseeses",
+        "url": "",
+        "linkedinpost": "",
+        "date": "2019",
+        "imageFolder": "SGJ2019",
+        "images": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png"
+        ]
+    },
+    {
+        "name": "Scientific Game Jam 2018",
+        "description": "making a game in 2 days is hard ! In this game jam we made a gam to sesbilise about the risqies of IOT devices for patients of chronical deseeses",
+        "url": "http://www/google.com",
+        "linkedinpost": "",
+        "date": "2018",
+        "imageFolder": "SGJ2018",
+        "images": []
+    },
+    {
+        "name": "Scientific Game Jam 2017",
+        "description": "making a game in 2 days is hard ! In this game jam we made a gam to sesbilise about the risqies of IOT devices for patients of chronical deseeses",
+        "url": "http://www/google.com",
+        "linkedinpost": "",
+        "date": "2017",
+        "imageFolder": "SGJ2017",
+        "images": []
+    }
+]

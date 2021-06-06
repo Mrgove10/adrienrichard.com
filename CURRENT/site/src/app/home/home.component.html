@@ -1,0 +1,75 @@
+<h1>Adrien Richard</h1>
+<p>
+    Some pleople call me a developper other call me a nerd. Both are correct, i am interected in most things related to
+    computers and tech in general. I also love elarning by doing, hence why my <a routerLink="/projects">personal
+        project list is quite long</a>.
+    <br />
+    For the web i would say i am more of a back end guy (i'm sure you can see with thei website that front end is not my
+    strong point, but if needed i can do it).
+    <br>
+    In general i love tinkering, making things, i love electronics and IOT devices i have created a few that i use daily
+</p>
+
+<div id="socials">
+    <a href="https://www.linkedin.com/in/adrien-rich/"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:richardadrien0@gmail.com"><i class="fas fa-at"></i></a>
+    <a href="https://github.com/Mrgove10"><i class="fab fa-github"></i></a>
+    <a href="https://wakatime.com/@Adrien"><i class="fas fa-signal"></i></a>
+</div>
+<!---->
+<h2>Personal Projects</h2>
+<h3> Too much to list here, <a routerLink="/projects">click me</a></h3>
+<hr>
+
+<!---->
+<h2>Skills</h2>
+<div *ngFor="let sk of skills">
+</div>
+<hr>
+
+<!---->
+<h2>Work Experience</h2>
+<div *ngFor="let w of work" style="display: flex;">
+    <a href="{{w.compagnyWebsite}}" target="_blank">
+        <img class="logocomp" src="assets/images/jobs/{{w.imageName}}" style="align-self: center;" />
+    </a>
+    <div>
+        <!-- <h3><a href="{{w.compagnyWebsite}}" target="_blank">{{w.compagny}}</a></h3> -->
+        <h3>{{w.title}}</h3>
+        <small class="date">{{w.startDate}} - {{w.endDate}}</small>
+        <p>{{w.description}}</p>
+
+        <div style="display: flex;">
+            <div *ngIf="w.missions">
+                <h4>Main missions : </h4>
+                <ul>
+                    <li *ngFor="let mis of w.missions">{{mis}}</li>
+                </ul>
+            </div>
+            <div *ngIf="w.tech">
+                <h4>Tech used : </h4>
+                <ul>
+                    <li *ngFor="let te of w.tech">{{te}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+
+<!---->
+<h2>Events</h2>
+<p>Before covid, I quite liked going to tech events</p>
+<ul>
+    <li *ngFor="let evnt of events">
+        {{evnt.name}}<small>{{evnt.location}}</small>
+    </li>
+</ul>
+<hr>
+
+<!---->
+<h2>Interests</h2>
+<p>Ill be so happy to chat about any of thses ! </p>
+<ul>
+    <li *ngFor="let int of interests">{{int}}</li>
+</ul>
