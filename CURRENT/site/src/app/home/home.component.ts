@@ -4,6 +4,7 @@ import eventsJson from '../../assets/jsons/events.json';
 import interestsJson from '../../assets/jsons/interests.json';
 import workJson from '../../assets/jsons/work.json';
 import skillsJson from '../../assets/jsons/skills.json';
+import socialsJson from '../../assets/jsons/socials.json';
 
 @Component({
   selector: 'app-home',
@@ -17,17 +18,9 @@ export class HomeComponent implements OnInit {
   public events = eventsJson;
   public interests = interestsJson;
   public skills = skillsJson;
+  public socials = socialsJson;
 
   ngOnInit(): void {
-    eventsJson.forEach(element => {
-      // console.log(element);
-    });
-    interestsJson.forEach(element => {
-      // console.log(element);
-    });
-    workJson.forEach(element => {
-      // console.log(element);
-    });
   }
 }
 

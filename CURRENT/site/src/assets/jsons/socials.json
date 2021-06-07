@@ -1,0 +1,18 @@
+[
+    {
+        "link": "https://www.linkedin.com/in/adrien-rich/",
+        "icon":"fab fa-linkedin"
+    },
+    {
+        "link": "mailto:richardadrien0@gmail.com",
+        "icon":"fas fa-at"
+    },
+    {
+        "link": "https://github.com/Mrgove10",
+        "icon":"fab fa-github"
+    },
+    {
+        "link": "https://wakatime.com/@Adrien",
+        "icon":"fas fa-signal"
+    }
+]

@@ -11,9 +11,6 @@ export class ProjectsComponent implements OnInit {
   public projects = projectsJson;
 
   ngOnInit(): void {
-    projectsJson.forEach(element => {
-      // console.log(element);
-    });
   }
 
 }

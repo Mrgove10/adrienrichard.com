@@ -1,30 +1,36 @@
 <h1>Adrien Richard</h1>
 <p>
-    Some pleople call me a developper other call me a nerd. Both are correct, i am interected in most things related to
-    computers and tech in general. I also love elarning by doing, hence why my <a routerLink="/projects">personal
+    Some people call me a developper other call me a nerd. Both are correct, I am interested in most things related to
+    computers and tech in general. I also love leaning by doing, hence why my <a routerLink="/projects">personal
         project list is quite long</a>.
     <br />
-    For the web i would say i am more of a back end guy (i'm sure you can see with thei website that front end is not my
-    strong point, but if needed i can do it).
+    For the web I would say I am more of a back end guy (i'm sure you can see with thei website that front end is not my
+    strong point, but if needed I can do it).
     <br>
-    In general i love tinkering, making things, i love electronics and IOT devices i have created a few that i use daily
+    In general I love tinkering, making things, I love electronics and IOT devices I have created a few that I use
+    daily.
 </p>
 
-<div id="socials">
-    <a href="https://www.linkedin.com/in/adrien-rich/"><i class="fab fa-linkedin"></i></a>
-    <a href="mailto:richardadrien0@gmail.com"><i class="fas fa-at"></i></a>
-    <a href="https://github.com/Mrgove10"><i class="fab fa-github"></i></a>
-    <a href="https://wakatime.com/@Adrien"><i class="fas fa-signal"></i></a>
+<!---->
+<div id="socials" *ngFor="let soc of socials">
+    <a href="{{soc.link}}"><i class="{{soc.icon}}"></i></a>
 </div>
+
 <!---->
 <h2>Personal Projects</h2>
-<h3> Too much to list here, <a routerLink="/projects">click me</a></h3>
+<h3>Too much to list here, <a routerLink="/projects">click me</a></h3>
 <hr>
 
 <!---->
 <h2>Skills</h2>
-<div *ngFor="let sk of skills">
-</div>
+<ul>
+    <li *ngFor="let sk of skills">
+        {{sk.name}}
+        <span *ngFor="let s of [].constructor(sk.level); let i = index" style="display: inline;">
+            █
+        </span>
+    </li>
+</ul>
 <hr>
 
 <!---->
@@ -34,7 +40,6 @@
         <img class="logocomp" src="assets/images/jobs/{{w.imageName}}" style="align-self: center;" />
     </a>
     <div>
-        <!-- <h3><a href="{{w.compagnyWebsite}}" target="_blank">{{w.compagny}}</a></h3> -->
         <h3>{{w.title}}</h3>
         <small class="date">{{w.startDate}} - {{w.endDate}}</small>
         <p>{{w.description}}</p>

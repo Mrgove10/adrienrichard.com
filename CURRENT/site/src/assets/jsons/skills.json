@@ -1,6 +1,46 @@
 [
     {
-        "name": "Angular",
-        "Level": "8"
+        "name": "Angular & Ionic",
+        "level": 9
+    },
+    {
+        "name": "C#",
+        "level": 8
+    },
+    {
+        "name": "Unity",
+        "level": 7
+    },
+    {
+        "name": "Javacript / Typescript",
+        "level": 8
+    },
+    {
+        "name": "IOT/Arduino",
+        "level": 7
+    },
+    {
+        "name": "HTML",
+        "level": 7
+    },
+    {
+        "name": "CSS",
+        "level": 5
+    },
+    {
+        "name": "Cloud Infrastructure",
+        "level": 7
+    },
+    {
+        "name": "Firebase",
+        "level": 6
+    },
+    {
+        "name": "AWS",
+        "level": 4
+    },
+    {
+        "name": "UX/UI*",
+        "level": 3
     }
 ]
