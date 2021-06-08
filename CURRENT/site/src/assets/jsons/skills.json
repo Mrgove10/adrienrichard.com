@@ -16,8 +16,12 @@
         "level": 8
     },
     {
+        "name": "Playing Video Games",
+        "level": 10
+    },
+    {
         "name": "IOT/Arduino",
-        "level": 7
+        "level": 8
     },
     {
         "name": "HTML",
@@ -40,7 +44,11 @@
         "level": 4
     },
     {
-        "name": "UX/UI*",
+        "name": "UX/UI",
         "level": 3
+    },
+    {
+        "name": "Cooking",
+        "level": 1
     }
 ]

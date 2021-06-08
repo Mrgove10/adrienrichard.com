@@ -12,25 +12,16 @@
 </p>
 
 <!---->
-<div id="socials" *ngFor="let soc of socials">
-    <a href="{{soc.link}}"><i class="{{soc.icon}}"></i></a>
+<div id="socials">
+    <span *ngFor="let soc of socials">
+        <a href="{{soc.link}}"><i class="{{soc.icon}}"></i></a>
+    </span>
+
 </div>
 
 <!---->
 <h2>Personal Projects</h2>
 <h3>Too much to list here, <a routerLink="/projects">click me</a></h3>
-<hr>
-
-<!---->
-<h2>Skills</h2>
-<ul>
-    <li *ngFor="let sk of skills">
-        {{sk.name}}
-        <span *ngFor="let s of [].constructor(sk.level); let i = index" style="display: inline;">
-            █
-        </span>
-    </li>
-</ul>
 <hr>
 
 <!---->
@@ -44,7 +35,7 @@
         <small class="date">{{w.startDate}} - {{w.endDate}}</small>
         <p>{{w.description}}</p>
 
-        <div style="display: flex;">
+        <div style="display: flex; justify-content:space-around;">
             <div *ngIf="w.missions">
                 <h4>Main missions : </h4>
                 <ul>
@@ -73,8 +64,32 @@
 <hr>
 
 <!---->
-<h2>Interests</h2>
-<p>Ill be so happy to chat about any of thses ! </p>
-<ul>
-    <li *ngFor="let int of interests">{{int}}</li>
-</ul>
+<div style="display: flex; justify-content:space-evenly;">
+    <div>
+        <h2>Interests</h2>
+        <p>Ill be so happy to chat about any of theses !</p>
+        <ul>
+            <li *ngFor="let int of interests">{{int}}</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Skills</h2>
+        <div style="display: flex;">
+            <div style="margin-right: 0px;">
+                <p class="tightText">═════════════════════════</p>
+                <p *ngFor="let sk of skills" class="tightText">
+                    {{sk.name}}<br>
+                </p>
+                <p class="tightText">═════════════════════════</p>
+            </div>
+            <div>
+                <p class="tightText">╦══════════════════════╗</p>
+                <p class="tightText" *ngFor="let sk of skills">
+                    {{sk.levelstr}}
+                </p>
+                <p class="tightText">╩══════════════════════╝</p>
+            </div>
+        </div>
+        <small>I know progress bars are not the best for skills but at least it's very visual.</small>
+    </div>
+</div>

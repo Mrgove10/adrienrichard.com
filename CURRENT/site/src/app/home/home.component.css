@@ -21,3 +21,8 @@
   color: inherit;
   margin: 20px;
 }
+
+.tightText {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
