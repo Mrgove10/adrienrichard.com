@@ -14,5 +14,9 @@
     {
         "link": "https://wakatime.com/@Adrien",
         "icon":"fas fa-signal"
+    },
+    {
+        "link": "/projects",
+        "icon":"fas fa-tools"
     }
 ]

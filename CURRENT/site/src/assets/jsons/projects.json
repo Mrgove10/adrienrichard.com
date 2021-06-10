@@ -14,18 +14,6 @@
         ]
     },
     {
-        "name": "Furmap.net",
-        "description": "With more then 12 000 users, furmap is now well known in the furry community. The first versionw as coded in only one day and has now been active for more then 2 years. This is, to date my most succesfull project and the one i am most prowd of",
-        "url": "https://furmap.net",
-        "linkedinpost": "",
-        "date": "2019",
-        "imageFolder": "furmap",
-        "images": [
-            "1.png",
-            "2.png"
-        ]
-    },
-    {
         "name": "Weather Station",
         "description": "With more then a miliopn rows of data and a 24/7 moinitoring of my appartement this weather station is holding up ! a combination of an esp32, node red and graphana i can monito the temperature of my appartement, inside and outside.",
         "url": "https://github.com/Mrgove10/HomeIOT",
@@ -80,9 +68,32 @@
         ]
     },
     {
+        "name": "Furmap.net",
+        "description": "With more then 12 000 users, furmap is now well known in the furry community. The first versionw as coded in only one day and has now been active for more then 2 years. This is, to date my most succesfull project and the one i am most prowd of",
+        "url": "https://furmap.net",
+        "linkedinpost": "",
+        "date": "2019",
+        "imageFolder": "furmap",
+        "images": [
+            "1.png"
+        ]
+    },
+    {
+        "name": "Scientific Game Jam 2018",
+        "description": "A lonely robots needs to break ronks on a mysterious planet to analyse them !",
+        "url": "https://mrgove10.itch.io/breaking-bots",
+        "linkedinpost": "",
+        "date": "2020",
+        "imageFolder": "SGJ2020",
+        "images": [
+            "1.jpg",
+            "2.jpg"
+        ]
+    },
+    {
         "name": "Scientific Game Jam 2019",
-        "description": "making a game in 2 days is hard ! In this game jam we made a gam to sesbilise about the risqies of IOT devices for patients of chronical deseeses",
-        "url": "",
+        "description": "In this game jam we made a gam to sensibilize about the risqies of IOT devices for patients of chronical deseeses",
+        "url": "https://mrgove10.itch.io/safe-or-well",
         "linkedinpost": "",
         "date": "2019",
         "imageFolder": "SGJ2019",
@@ -95,20 +106,11 @@
     },
     {
         "name": "Scientific Game Jam 2018",
-        "description": "making a game in 2 days is hard ! In this game jam we made a gam to sesbilise about the risqies of IOT devices for patients of chronical deseeses",
-        "url": "http://www/google.com",
+        "description": "",
+        "url": "https://mrgove10.itch.io/last-fiber",
         "linkedinpost": "",
         "date": "2018",
         "imageFolder": "SGJ2018",
-        "images": []
-    },
-    {
-        "name": "Scientific Game Jam 2017",
-        "description": "making a game in 2 days is hard ! In this game jam we made a gam to sesbilise about the risqies of IOT devices for patients of chronical deseeses",
-        "url": "http://www/google.com",
-        "linkedinpost": "",
-        "date": "2017",
-        "imageFolder": "SGJ2017",
         "images": []
     }
 ]

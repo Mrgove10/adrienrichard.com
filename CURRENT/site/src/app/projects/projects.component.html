@@ -1,8 +1,10 @@
 <a routerLink="/home">Home</a>
+This list will be updated from time to time, when I make new projects but also when I think about it.
 <div *ngFor="let proj of projects">
     <h3>{{proj.name}}</h3>
     <small style="display: inline;">{{proj.date}}</small>
-    <p>{{proj.url}}</p>
+    <br>
+    <a href="{{proj.url}}">{{proj.url}}</a>
     <p>{{proj.description}}</p>
     <p>{{proj.linkedinpost}}</p>
     <div style="display: flex; flex-direction : row; flex-wrap: wrap;">
@@ -12,4 +14,5 @@
         <img *ngFor='let image of proj.images' src='assets/images/{{proj.imageFolder}}/{{image}}'
             style="height : 222px;" />
     </div>
+    <hr>
 </div>

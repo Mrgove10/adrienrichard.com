@@ -9,9 +9,9 @@
         "missions": [
             "Optimization of the current application",
             "Transforming a NodeJs Api into an AWS Lambda API",
-            "Creating IOT Object that communicate with the app using Bluetooth",
+            "Creating IOT Objects that communicate with the app using Bluetooth",
             "Creating a complete management platform for real time view of the players progress",
-            "Project Management with training interns"
+            "Project management with training of interns"
         ],
         "imageName": "graaly.png",
         "tech": [
@@ -30,7 +30,7 @@
         "title": "Developper",
         "startDate": "July 2019",
         "endDate": "August 2019",
-        "description": "This was my first real job! Learned a new game engine and how to create touch screen optimized interfaces. Moovlab makes a bracelet that is linked to a video game that allows you to do sports while having fun!",
+        "description": "This was my first real job! Learned a new game engine and how to create touch screen optimized interfaces. Moovlab makes a connected bracelet that is linked to a video game that allows you to do sports while having fun!",
         "missions": [
             "Modification of a Video Game",
             "Creation of a touch based interface for selecting video games"
@@ -59,7 +59,7 @@
             "C++",
             "Nucloe 32",
             "Spi Bus",
-            "Ociloscole and logic analysers"
+            "Osciloscopes & logic analysers"
         ]
     },
     {
@@ -68,7 +68,7 @@
         "title": "Mobile App Developper (Internship)",
         "startDate": "May 2018",
         "endDate": "September 2018",
-        "description": "This was my first working experience, 4 months working with the Microsoft stack to create a mobile app allowing camping owners to bee keep up to date on their new reservations. Alliance reseau create a backend service that allow camping’s, hotels, and over establishments to integrate payment into their website. They are one of the French leaders in for.",
+        "description": "This was my first working experience, 4 months working with the Microsoft stack to create a mobile app allowing camping owners to bee keep up to date on their new reservations. Alliance Reseau create a backend service that allow camping’s, hotels, and over establishments to integrate payment into their website.",
         "imageName": "alliance-reseaux.png",
         "missions": [
             "Creating a mobile app with Xamarin",

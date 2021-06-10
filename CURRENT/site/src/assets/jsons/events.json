@@ -1,22 +1,22 @@
 [
     {
-        "name": "Global Game Jam 2019 ",
+        "name": "Global Game Jam 2020 ",
         "date": "Grenoble, France",
         "where": "Grenoble",
         "description": "Organisation",
         "link": ""
     },
     {
-        "name": "Grehack 2019",
+        "name": "Scientific Game Jam 2020",
         "date": "date",
-        "where": "grenoble, France",
+        "where": "Grenoble, France",
         "description": "description",
         "link": ""
     },
     {
-        "name": "Scientific Game Jam 2019",
+        "name": "Grehack 2019",
         "date": "date",
-        "where": "Grenoble, France",
+        "where": "grenoble, France",
         "description": "description",
         "link": ""
     },
@@ -28,7 +28,7 @@
         "link": ""
     },
     {
-        "name": "Scientific Game Jam 2018",
+        "name": "Scientific Game Jam 2019",
         "date": "date",
         "where": "Grenoble, France",
         "description": "description",
@@ -42,7 +42,7 @@
         "link": ""
     },
     {
-        "name": "Scientific Game Jam 2017",
+        "name": "Scientific Game Jam 2018",
         "date": "date",
         "where": "Grenoble, France",
         "description": "description",
