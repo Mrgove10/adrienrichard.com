@@ -79,6 +79,19 @@
         ]
     },
     {
+        "name": "Connected picture frame",
+        "description": "Just a little raspberry to get some infromation at a glance.",
+        "url": "",
+        "linkedinpost": "",
+        "date": "2019",
+        "imageFolder": "frame",
+        "images": [
+            "1.png",
+            "2.png",
+            "3.png"
+        ]
+    },
+    {
         "name": "Scientific Game Jam 2018",
         "description": "A lonely robots needs to break ronks on a mysterious planet to analyse them !",
         "url": "https://mrgove10.itch.io/breaking-bots",
