@@ -27,6 +27,7 @@ jobs:
       with:
         local-dir: CURRENT/site/dist/
         server-dir: www/
+        dangerous-clean-slate: true
         server: ${{ secrets.ftp_server }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
