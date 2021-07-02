@@ -15,7 +15,7 @@
     },
     {
         "name": "Weather Station",
-        "description": "With more then a miliopn rows of data and a 24/7 moinitoring of my appartement this weather station is holding up ! a combination of an esp32, node red and graphana i can monito the temperature of my appartement, inside and outside.",
+        "description": "With more then a million rows of data and a 24/7 monitoring of my appartement this weather station is holding up ! a combination of an esp32, node red and graphana i can monitor the temperature of my appartement, inside and outside.",
         "url": "https://github.com/Mrgove10/HomeIOT",
         "linkedinpost": "",
         "date": "2018",
@@ -29,7 +29,7 @@
     },
     {
         "name": "Htc Vive custom audio strap",
-        "description": "Sometimes the easier projects are the ones that are the most usefull. Using an old pair od headphones i was aible to create my own integratio audio solution for my VR headset. Mabey the quality is not as boog but at least it didn't cost me 150€",
+        "description": "Sometimes the easier projects are the ones that are the most usefull. Using an old pair od headphones i was able to create my own integration audio solution for my VR headset. Maybe the quality is not as good but at least it didn't cost me 150€",
         "url": "",
         "linkedinpost": "",
         "date": "2021",
@@ -43,7 +43,7 @@
     },
     {
         "name": "CheapDeck",
-        "description": "Realy simple elctronics and 3D printin project, but also very usefull !",
+        "description": "Realy simple electronics and 3D printin project, but also very usefull !",
         "url": "",
         "linkedinpost": "",
         "date": "2021",
@@ -69,7 +69,7 @@
     },
     {
         "name": "Furmap.net",
-        "description": "With more then 12 000 users, furmap is now well known in the furry community. The first versionw as coded in only one day and has now been active for more then 2 years. This is, to date my most succesfull project and the one i am most prowd of",
+        "description": "With more then 12 000 users, furmap is now well known in the furry community. The first version was coded in only one day and has now been active for more then 2 years. This is, to date my most successful project and the one i am most proud of",
         "url": "https://furmap.net",
         "linkedinpost": "",
         "date": "2019",
@@ -80,7 +80,7 @@
     },
     {
         "name": "Connected picture frame",
-        "description": "Just a little raspberry to get some infromation at a glance.",
+        "description": "Just a little raspberry to get some information at a glance.",
         "url": "",
         "linkedinpost": "",
         "date": "2019",
@@ -93,7 +93,7 @@
     },
     {
         "name": "Scientific Game Jam 2018",
-        "description": "A lonely robots needs to break ronks on a mysterious planet to analyse them !",
+        "description": "A lonely robots needs to break rocks on a mysterious planet to analyse them!",
         "url": "https://mrgove10.itch.io/breaking-bots",
         "linkedinpost": "",
         "date": "2020",
@@ -105,7 +105,7 @@
     },
     {
         "name": "Scientific Game Jam 2019",
-        "description": "In this game jam we made a gam to sensibilize about the risqies of IOT devices for patients of chronical deseeses",
+        "description": "In this game jam we made a game to sensibilize about the risks of IOT devices for patients of chronical deseeses",
         "url": "https://mrgove10.itch.io/safe-or-well",
         "linkedinpost": "",
         "date": "2019",
