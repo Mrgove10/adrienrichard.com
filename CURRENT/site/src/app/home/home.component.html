@@ -30,12 +30,12 @@
     <a href="{{w.compagnyWebsite}}" target="_blank">
         <img class="logocomp" src="assets/images/jobs/{{w.imageName}}" style="align-self: center;" />
     </a>
-    <div>
+    <div class="work-experience">
         <h3>{{w.title}}</h3>
         <small class="date">{{w.startDate}} - {{w.endDate}}</small>
         <p>{{w.description}}</p>
 
-        <div style="display: flex; justify-content:space-around;">
+        <div class="work-experience-project">
             <div *ngIf="w.missions">
                 <h4>Main missions : </h4>
                 <ul>

@@ -14,7 +14,8 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  font-size: 75px;
+  font-size: 50px;
+  color: rgb(25, 25, 25);
 }
 
 #socials a {
@@ -25,4 +26,25 @@
 .tightText {
   margin-bottom: 5px;
   margin-top: 5px;
+}
+
+.work-experience {
+  margin-left: 10px;
+}
+
+.work-experience-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  width: 100%;
+}
+
+.work-experience-project div:first-child {
+  width: 70%;
+}
+
+.work-experience-project div:nth-of-type(2) {
+  width: 25%;
 }
