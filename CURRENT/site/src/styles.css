@@ -10,3 +10,9 @@
 body {
   margin: 0 20%;
 }
+
+@media screen and (max-width: 1343px) {
+  body {
+    margin: 0 10%;
+  }
+}

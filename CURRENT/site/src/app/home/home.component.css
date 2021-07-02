@@ -21,11 +21,25 @@
 #socials a {
   color: inherit;
   margin: 20px;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+#socials a:hover {
+  opacity: 1;
 }
 
 .tightText {
   margin-bottom: 5px;
   margin-top: 5px;
+}
+
+.work-experience-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
 }
 
 .work-experience {
@@ -48,3 +62,115 @@
 .work-experience-project div:nth-of-type(2) {
   width: 25%;
 }
+
+.interests-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.interests-skills > div:first-child {
+  width: 300px;
+}
+
+.interests-skills > div:nth-of-type(2) {
+  width: 500px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1000px) {
+  .interests-skills {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  .interests-skills > div:first-child {
+    width: 100%;
+  }
+
+  .interests-skills > div:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .work-experience-project {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  .work-experience-project div:first-child {
+    width: 100%;
+  }
+
+  .work-experience-project div:nth-of-type(2) {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  p {
+    font-size: 14px;
+  }
+
+  #socials {
+    opacity: 1;
+    font-size: 35px;
+  }
+
+  .work-experience-section {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .work-experience-section a {
+    align-self: flex-start;
+  }
+
+  .work-experience-section a img {
+    height: 100px;
+    object-fit: contain;
+    margin: 0;
+  }
+
+  .work-experience {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .tightText {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .tightText {
+    font-size: 10px;
+  }
+
+  #socials {
+    font-size: 25px;
+  }
+
+  #socials a {
+    margin: 0 10px;
+  }
+}
+
+/*
+@media screen and (max-width: 770px) {
+
+}
+*/
