@@ -9,6 +9,15 @@
   margin: 10px;
 }
 
+@media print {
+  .logocomp {
+    width: 75px;
+    max-width: 75px;
+    height: auto;
+    margin: 10px;
+  }
+}
+
 #socials {
   display: flex;
   justify-content: center;
@@ -84,6 +93,24 @@
 /* responsive */
 
 @media screen and (max-width: 1000px) {
+  .interests-skills {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  .interests-skills > div:first-child {
+    width: 100%;
+  }
+
+  .interests-skills > div:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+@media print
+{
   .interests-skills {
     flex-direction: column;
     justify-content: flex-start;

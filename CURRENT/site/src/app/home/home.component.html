@@ -14,15 +14,15 @@
 </p>
 
 <!---->
-<div id="socials">
+<div id="socials" class="no-print">
   <span *ngFor="let soc of socials">
     <a href="{{ soc.link }}"><i class="{{ soc.icon }}"></i></a>
   </span>
 </div>
 
 <!---->
-<h2>Personal Projects</h2>
-<h3>Too much to list here, <a routerLink="/projects">click me</a></h3>
+<h2 class="no-print">Personal Projects</h2>
+<h3 class="no-print">Too much to list here, <a routerLink="/projects">click me</a></h3>
 <hr />
 
 <!---->
@@ -55,14 +55,28 @@
 <hr />
 
 <!---->
-<h2>Events</h2>
-<p>Before covid, I quite liked going to tech events</p>
+<h2>Projects</h2>
+<p>Here is a small selection of my projects</p>
+<br>
+<p class="print-only">adrienrichard.com/projects</p>
 <ul>
+  <li *ngFor="let proj of projects">
+    <a routerLink="/projects">
+      {{ proj.name }}
+    </a>
+  </li>
+</ul>
+<hr />
+
+<!---->
+<h2  class="no-print">Events</h2>
+<p  class="no-print">Before covid, I quite liked going to tech events</p>
+<ul  class="no-print">
   <li *ngFor="let evnt of events">
     {{ evnt.name }}<small>{{ evnt.location }}</small>
   </li>
 </ul>
-<hr />
+<hr  class="no-print"/>
 
 <!---->
 <div class="interests-skills">
@@ -89,9 +103,11 @@
         <p class="tightText">╩══════════════════════╝</p>
       </div>
     </div>
-    <small
-      >I know progress bars are not the best for skills but at least it's very
-      visual.</small
-    >
+    <small>I know progress bars are not the best for skills but at least it's very
+      visual.</small>
   </div>
 </div>
+
+<button onclick="javascript:print()" class="no-print">
+  Download me !
+</button>

@@ -5,6 +5,7 @@ import interestsJson from '../../assets/jsons/interests.json';
 import workJson from '../../assets/jsons/work.json';
 import skillsJson from '../../assets/jsons/skills.json';
 import socialsJson from '../../assets/jsons/socials.json';
+import projectJson from '../../assets/jsons/projects.json';
 
 @Component({
   selector: 'app-home',
@@ -19,6 +20,7 @@ export class HomeComponent implements OnInit {
   public interests = interestsJson;
   public skills = skillsJson;
   public socials = socialsJson;
+  public projects = projectJson;
 
   ngOnInit(): void {
     // progress bar
