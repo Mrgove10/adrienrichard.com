@@ -57,8 +57,7 @@
 <!---->
 <h2>Projects</h2>
 <p>Here is a small selection of my projects</p>
-<br>
-<p class="print-only">adrienrichard.com/projects</p>
+<p class="print-only">Find them all at adrienrichard.com/projects</p>
 <ul>
   <li *ngFor="let proj of projects">
     <a routerLink="/projects">
@@ -69,20 +68,20 @@
 <hr />
 
 <!---->
-<h2  class="no-print">Events</h2>
-<p  class="no-print">Before covid, I quite liked going to tech events</p>
-<ul  class="no-print">
+<h2 class="no-print">Events</h2>
+<p class="no-print">Before covid, I quite liked going to tech events</p>
+<ul class="no-print">
   <li *ngFor="let evnt of events">
     {{ evnt.name }}<small>{{ evnt.location }}</small>
   </li>
 </ul>
-<hr  class="no-print"/>
+<hr class="no-print" />
 
 <!---->
 <div class="interests-skills">
   <div>
     <h2>Interests</h2>
-    <p>I'll be so happy to chat about any of theses !</p>
+    <p>I'll be so happy to chat about any of theses and more !</p>
     <ul>
       <li *ngFor="let int of interests">{{ int }}</li>
     </ul>

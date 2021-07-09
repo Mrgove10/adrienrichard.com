@@ -17,6 +17,10 @@ body {
   }
 }
 
+.print-only{
+  display: none;
+} 
+
 @media print
 {    
   body {
@@ -32,7 +36,3 @@ body {
     display: block;
   }  
 }
-
-.print-only{
-  display: none;
-} 
