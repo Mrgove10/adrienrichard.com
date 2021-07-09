@@ -20,6 +20,14 @@
   </span>
 </div>
 
+<div class="print-only">
+  <ul>
+    <li *ngFor="let soc of socials">
+      <a href="{{ soc.link }}">{{ soc.link }}</a>
+    </li>
+  </ul>
+</div>
+
 <!---->
 <h2 class="no-print">Personal Projects</h2>
 <h3 class="no-print">Too much to list here, <a routerLink="/projects">click me</a></h3>
