@@ -25,8 +25,8 @@ import workJson_fr from '../../assets/jsons/fr/work_fr.json';
 export class HomeComponent implements OnInit {
 
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en');
-    this.changeToEN()
+    translate.setDefaultLang('translations_en');
+    this.changeToEN();
   }
 
   public work = workJson_en;
@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit {
   public projects = projectJson_en;
 
   changeToFR(): void {
-    this.translate.use('fr');
+    this.translate.use('translations_fr');
     this.work = workJson_fr;
     // this.events = eventsJson_fr;
     // this.interests = interestsJson_fr;
@@ -47,7 +47,7 @@ export class HomeComponent implements OnInit {
   }
 
   changeToEN(): void {
-    this.translate.use('en');
+    this.translate.use('translations_en');
     this.work = workJson_en;
     this.events = eventsJson_en;
     this.interests = interestsJson_en;

@@ -1,0 +1,11 @@
+{
+  "download": "Download me !",
+  "test": "testEN",
+  "title": {
+    "events": "Events",
+    "interests": "Interests",
+    "projects": "Personal Projects",
+    "skills": "Skills",
+    "work": "Work Experience"
+  }
+}

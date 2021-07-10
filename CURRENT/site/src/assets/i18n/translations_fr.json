@@ -1,0 +1,11 @@
+{
+  "download": "Telechargé moi !",
+  "test": "testFR",
+  "title": {
+    "events": "Événements",
+    "interests": "Intérêts",
+    "projects": "Projets personnels",
+    "skills": "Compétences",
+    "work": "Expérience professionnelle"
+  }
+}

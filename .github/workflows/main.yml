@@ -22,6 +22,17 @@ jobs:
     - name: 🏗 Build 
       run: ng build
 
+    - name: install json minification tool
+      run : npm i -g minify-json
+
+    - name: minify translation files
+      run : minify-json dist/site/assets/i18n
+
+    - name: minify jsons
+      run : |
+        minify-json dist/site/assets/jsons/en
+        minify-json dist/site/assets/jsons/fr
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
