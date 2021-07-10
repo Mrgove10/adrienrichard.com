@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
-import { BarRatingModule } from 'ngx-bar-rating';
 
 // translate
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -22,7 +21,6 @@ import { HttpClient, HttpClientModule, HttpErrorResponse } from '@angular/common
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BarRatingModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

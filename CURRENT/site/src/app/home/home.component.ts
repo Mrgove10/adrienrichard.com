@@ -17,7 +17,7 @@ import skillsJson_fr from '../../assets/jsons/fr/skills_fr.json';
 // import projectJson_fr from '../../assets/jsons/fr/projects_fr.json';
 
 // last update
-import lastUpdateJson from '../../assets/lastUpdatedDate.json';
+import lastUpdateJson from '../../assets/jsons/lastUpdatedDate.json';
 
 @Component({
   selector: 'app-home',
