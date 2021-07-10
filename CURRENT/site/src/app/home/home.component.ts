@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+
 // Jsons
 import eventsJson from '../../assets/jsons/events.json';
 import interestsJson from '../../assets/jsons/interests.json';
@@ -14,6 +16,11 @@ import projectJson from '../../assets/jsons/projects.json';
 })
 export class HomeComponent implements OnInit {
 
+
+  constructor(private translate: TranslateService,) {
+    translate.setDefaultLang('en');
+    translate.use('en');
+  }
   // forced to reasign for acces in the html
   public work = workJson;
   public events = eventsJson;
