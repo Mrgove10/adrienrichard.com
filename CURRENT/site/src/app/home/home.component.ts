@@ -17,6 +17,9 @@ import workJson_fr from '../../assets/jsons/fr/work_fr.json';
 // import socialsJson_fr from '../../assets/jsons/fr/socials_fr.json';
 // import projectJson_fr from '../../assets/jsons/fr/projects_fr.json';
 
+// last update
+import lastUpdateJson from '../../assets/lastUpdatedDate.json';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -35,6 +38,8 @@ export class HomeComponent implements OnInit {
   public skills = skillsJson_en;
   public socials = socialsJson_en;
   public projects = projectJson_en;
+
+  public lastUpdate = lastUpdateJson.last;
 
   changeToFR(): void {
     this.translate.use('translations_fr');

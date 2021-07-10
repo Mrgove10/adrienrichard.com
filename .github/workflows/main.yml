@@ -33,6 +33,9 @@ jobs:
         minify-json dist/site/assets/jsons/en
         minify-json dist/site/assets/jsons/fr
 
+    - name: update time
+      run: echo {"\"last"\" :"\"$(date)"\"} > dist/site/assets/lastUpdatedDate.json
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
