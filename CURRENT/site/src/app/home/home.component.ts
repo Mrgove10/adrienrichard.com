@@ -24,8 +24,8 @@ import lastUpdateJson from '../../assets/jsons/lastUpdatedDate.json';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
 
+export class HomeComponent {
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('translations_en');
     this.changeToEN();
@@ -47,6 +47,7 @@ export class HomeComponent implements OnInit {
     this.interests = interestsJson_fr;
     this.skills = skillsJson_fr;
     // this.projects = projectJson_fr;
+    this.refresh();
   }
 
   changeToEN(): void {
@@ -57,12 +58,10 @@ export class HomeComponent implements OnInit {
     this.skills = skillsJson_en;
     this.socials = socialsJson_en;
     this.projects = projectJson_en;
+    this.refresh();
   }
 
-  // forced to reasign for acces in the html
-
-
-  ngOnInit(): void {
+  refresh(): void {
     // progress bar
     this.skills.forEach(sk => {
       let tmpString = '║ ';
@@ -82,5 +81,6 @@ export class HomeComponent implements OnInit {
     // skill shuffle
     this.interests = this.interests.sort(() => .5 - Math.random());
   }
+
 }
 
