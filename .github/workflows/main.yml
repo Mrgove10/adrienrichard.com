@@ -18,18 +18,14 @@ jobs:
       run: |
         sudo npm install -g @angular/cli
         sudo npm i
+        sudo npm i -g minify-json
 
     - name: 🏗 Build 
-      run: ng build
+      run: ng build --prod
 
-    - name: install json minification tool
-      run : npm i -g minify-json
-
-    - name: minify translation files
-      run : minify-json dist/site/assets/i18n
-
-    - name: minify jsons
+    - name: minify jsons 
       run : |
+        minify-json dist/site/assets/i18n
         minify-json dist/site/assets/jsons/en
         minify-json dist/site/assets/jsons/fr
 
