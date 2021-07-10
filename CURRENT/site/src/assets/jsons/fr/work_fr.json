@@ -83,12 +83,12 @@
         ]
     },
     {
-        "compagny": "Your company here",
+        "compagny": "Votre entreprise ici ",
         "compagnyWebsite": "#",
-        "title": "Your company here ! Lets Chat About It !",
+        "title": "Votre entreprise ici ! Parlons-en !",
         "startDate": "Present",
         "endDate": "Future",
-        "description": "I am always looking for oportunities, lets chat about it !",
+        "description": "Je suis toujours à la recherche d'opportunités, parlons-en !",
         "imageName": "future.jpg"
     }
 ]

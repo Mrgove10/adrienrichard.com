@@ -51,13 +51,13 @@
 
     <div class="work-experience-project">
       <div *ngIf="w.missions">
-        <h4>Main missions :</h4>
+        <h4>{{'mainmission'|translate}}Main missions :</h4>
         <ul>
           <li *ngFor="let mis of w.missions">{{ mis }}</li>
         </ul>
       </div>
       <div *ngIf="w.tech">
-        <h4>Tech used :</h4>
+        <h4>{{'techused'|translate}}</h4>
         <ul>
           <li *ngFor="let te of w.tech">{{ te }}</li>
         </ul>
@@ -101,6 +101,7 @@
   </div>
   <div>
     <h2>{{'title.skills'|translate}}</h2>
+    <p>{{ 'progressbars' | translate}}</p>
     <div class="tab" style="display: flex">
       <div style="margin-right: 0px">
         <p class="tightText">═══════════════════════════</p>
@@ -115,7 +116,6 @@
         <p class="tightText">╩══════════════════════╝</p>
       </div>
     </div>
-    <small>{{ 'progressbars' | translate}}</small>
   </div>
 </div>
 
