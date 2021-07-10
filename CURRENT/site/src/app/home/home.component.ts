@@ -11,10 +11,9 @@ import projectJson_en from '../../assets/jsons/en/projects_en.json';
 
 // Jsons french
 // import eventsJson_fr from '../../assets/jsons/fr/events_fr.json';
-// import interestsJson_fr from '../../assets/jsonsfr/interests_fr.json';
+import interestsJson_fr from '../../assets/jsons/fr/interests_fr.json';
 import workJson_fr from '../../assets/jsons/fr/work_fr.json';
-// import skillsJson_fr from '../../assets/jsons/fr/skills_fr.json';
-// import socialsJson_fr from '../../assets/jsons/fr/socials_fr.json';
+import skillsJson_fr from '../../assets/jsons/fr/skills_fr.json';
 // import projectJson_fr from '../../assets/jsons/fr/projects_fr.json';
 
 // last update
@@ -45,9 +44,8 @@ export class HomeComponent implements OnInit {
     this.translate.use('translations_fr');
     this.work = workJson_fr;
     // this.events = eventsJson_fr;
-    // this.interests = interestsJson_fr;
-    // this.skills = skillsJson_fr;
-    // this.socials = socialsJson_fr;
+    this.interests = interestsJson_fr;
+    this.skills = skillsJson_fr;
     // this.projects = projectJson_fr;
   }
 

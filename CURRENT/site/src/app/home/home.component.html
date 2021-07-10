@@ -69,7 +69,7 @@
 
 <!---->
 <h2>{{'title.projects'|translate}}</h2>
-<p>Here is a small selection of my projects</p>
+<p>{{'projectsmall'|translate}}</p>
 <p class="print-only">Find them all at adrienrichard.com/projects</p>
 <ul>
   <li *ngFor="let proj of projects">
@@ -82,7 +82,7 @@
 
 <!---->
 <h2 class="no-print">{{'title.events'|translate}}</h2>
-<p class="no-print">Before covid, I quite liked going to tech events</p>
+<p class="no-print">{{'eventbeforecovid'|translate}}</p>
 <ul class="no-print">
   <li *ngFor="let evnt of events">
     {{ evnt.name }}<small>{{ evnt.location }}</small>
@@ -94,7 +94,7 @@
 <div class="interests-skills">
   <div>
     <h2>{{'title.interests'|translate}}</h2>
-    <p>I'll be so happy to chat about any of theses and more !</p>
+    <p>{{'interestchat'|translate}}</p>
     <ul>
       <li *ngFor="let int of interests">{{ int }}</li>
     </ul>
@@ -115,8 +115,7 @@
         <p class="tightText">╩══════════════════════╝</p>
       </div>
     </div>
-    <small>I know progress bars are not the best for skills but at least it's very
-      visual.</small>
+    <small>{{ 'progressbars' | translate}}</small>
   </div>
 </div>
 
