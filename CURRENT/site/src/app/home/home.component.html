@@ -1,4 +1,8 @@
-<p>{{ 'test' | translate }}</p>
+<button class="no-print" (click)="changeToFR()">Francais</button>
+<button class="no-print" (click)="changeToEN()">English</button>
+<button onclick="javascript:print()" class="no-print">
+  {{ 'download' | translate }}
+</button>
 <h1>Adrien Richard</h1>
 <p>
   Some people call me a developper other call me a nerd. Both are correct, I am
@@ -115,7 +119,3 @@
       visual.</small>
   </div>
 </div>
-
-<button onclick="javascript:print()" class="no-print">
-  Download me !
-</button>

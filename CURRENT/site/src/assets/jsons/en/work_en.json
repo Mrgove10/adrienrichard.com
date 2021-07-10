@@ -5,7 +5,7 @@
         "title": "Developper (Apprenticeship)",
         "startDate": "September 2019",
         "endDate": "Present",
-        "description": "Working in a startup is very rewarding, you get to work on so many different things. Learned a lot during this apprenticeship, some technical and non-technical skills. Graaly creates a mobile app that allows you to create an escape game anywhere, at home, at work, public places...",
+        "description": "Working in a startup is very rewarding, you get to work on so many different things. Learned a lot during this apprenticeship, some technical and non-technical skills. Graaly creates a mobile app that allows you to create an escape game anywhere, at home, at work, public places and in a very simple way !",
         "missions": [
             "Optimization of the current application",
             "Transforming a NodeJs Api into an AWS Lambda API",
@@ -27,6 +27,7 @@
     },
     {
         "compagny": "Moovlab",
+        "compagnyWebsite": "https://www.moovlab.fr/",
         "title": "Developper",
         "startDate": "July 2019",
         "endDate": "August 2019",
@@ -44,7 +45,7 @@
     },
     {
         "compagny": "Squadrone Systems",
-        "compagnyWebsite": "Squadrone Systems",
+        "compagnyWebsite": "https://squadrone-system.com/",
         "title": "Electronics developper (Internship)",
         "startDate": "January 2019",
         "endDate": "March 2019",
@@ -64,15 +65,15 @@
     },
     {
         "compagny": "Aliance Reseaux",
-        "compagnyWebsite": "Squadrone Systems",
+        "compagnyWebsite": "https://www.alliance-reseaux.com/",
         "title": "Mobile App Developper (Internship)",
         "startDate": "May 2018",
         "endDate": "September 2018",
-        "description": "This was my first working experience, 4 months working with the Microsoft stack to create a mobile app allowing camping owners to be keept up to date on their new reservations. Alliance Reseau create a backend service that allow campings, hotels, and over establishments to integrate payment into their website.",
+        "description": "This was my first working experience, 4 months working with the Microsoft stack to create a mobile app allowing camping owners to be keept up to date on their new reservations. Alliance Reseau create a backend service that allow campings, hotels, and other establishments to integrate payment into their website.",
         "imageName": "alliance-reseaux.png",
         "missions": [
             "Creating a mobile app with Xamarin",
-            "Integrating the application with hocks in the existing API"
+            "Integrating the application with webhooks in the existing API"
         ],
         "tech": [
             "C#",
