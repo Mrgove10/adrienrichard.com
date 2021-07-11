@@ -1,22 +1,27 @@
 [
     {
         "link": "https://www.linkedin.com/in/adrien-rich/",
-        "icon":"fab fa-linkedin"
+        "icon": "fab fa-linkedin",
+        "print": "linkedin.com/in/adrien-rich"
     },
     {
         "link": "mailto:richardadrien0@gmail.com",
-        "icon":"fas fa-at"
+        "icon": "fas fa-at",
+        "print": "richardadrien0@gmail.com"
     },
     {
         "link": "https://github.com/Mrgove10",
-        "icon":"fab fa-github"
+        "icon": "fab fa-github",
+        "print": "github.com/Mrgove10"
     },
     {
         "link": "https://wakatime.com/@Adrien",
-        "icon":"fas fa-signal"
+        "icon": "fas fa-signal",
+        "print": "wakatime.com/@Adrien"
     },
     {
         "link": "/projects",
-        "icon":"fas fa-tools"
+        "icon": "fas fa-tools",
+        "print": "adrienrichard.com"
     }
 ]

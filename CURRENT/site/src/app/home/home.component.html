@@ -20,7 +20,7 @@
 <div class="print-only">
   <ul>
     <li *ngFor="let soc of socials">
-      <a href="{{ soc.link }}">{{ soc.link }}</a>
+      <i class="{{ soc.icon }}"></i> {{ soc.print }}
     </li>
   </ul>
 </div>
@@ -62,33 +62,35 @@
 <hr />
 
 <!---->
-<div class="interests-skills">
-  <div>
-    <h2>{{ "title.skills" | translate }}</h2>
-    <p>{{ "progressbars" | translate }}</p>
-    <div class="tab" style="display: flex">
-      <div style="margin-right: 0px">
-        <p class="tightText">═══════════════════════════</p>
-        <p *ngFor="let sk of skills" class="tightText">{{ sk.name }}<br /></p>
-        <p class="tightText">═══════════════════════════</p>
-      </div>
-      <div>
-        <p class="tightText">╦══════════════════════╗</p>
-        <p class="tightText" *ngFor="let sk of skills">
-          {{ sk.levelstr }}
-        </p>
-        <p class="tightText">╩══════════════════════╝</p>
-      </div>
+<!-- <div class="interests-skills"> -->
+<div>
+  <h2>{{ "title.skills" | translate }}</h2>
+  <p>{{ "progressbars" | translate }}</p>
+  <div class="tab" style="display: flex">
+    <div style="margin-right: 0px">
+      <p class="tightText">═══════════════════════════</p>
+      <p *ngFor="let sk of skills" class="tightText">{{ sk.name }}<br /></p>
+      <p class="tightText">═══════════════════════════</p>
+    </div>
+    <div>
+      <p class="tightText">╦══════════════════════╗</p>
+      <p class="tightText" *ngFor="let sk of skills">
+        {{ sk.levelstr }}
+      </p>
+      <p class="tightText">╩══════════════════════╝</p>
     </div>
   </div>
-  <div>
-    <h2>{{ "title.interests" | translate }}</h2>
-    <p>{{ "interestchat" | translate }}</p>
-    <ul>
-      <li *ngFor="let int of interests">{{ int }}</li>
-    </ul>
-  </div>
 </div>
+<hr />
+<div>
+  <h2>{{ "title.interests" | translate }}</h2>
+  <p>{{ "interestchat" | translate }}</p>
+  <ul>
+    <li *ngFor="let int of interests">{{ int }}</li>
+  </ul>
+</div>
+<!-- </div> -->
+<hr />
 
 <!---->
 <h2>{{ "title.projects" | translate }}</h2>
