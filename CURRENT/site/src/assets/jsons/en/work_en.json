@@ -9,7 +9,7 @@
         "missions": [
             "Optimization of the current application",
             "Transforming a NodeJs Api into an AWS Lambda API",
-            "Creating IOT Objects that communicate with the App using Bluetooth",
+            "Creating IOT objects that communicate with the App using Bluetooth",
             "Creating a complete management platform for real time view of the players progress",
             "Project management with training of interns"
         ],
