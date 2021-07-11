@@ -5,11 +5,11 @@
         "title": "Developper (Apprenticeship)",
         "startDate": "September 2019",
         "endDate": "Present",
-        "description": "Working in a startup is very rewarding, you get to work on so many different things. Learned a lot during this apprenticeship, some technical and non-technical skills. Graaly creates a mobile app that allows you to create an escape game anywhere, at home, at work, public places and in a very simple way !",
+        "description": "Working in a startup is very rewarding, you get to work on so many different things! Learned a lot during this apprenticeship, some technical and non-technical skills. Graaly creates a mobile app that allows you to create an escape game anywhere : at home, at work, public places and in a very simple way !",
         "missions": [
             "Optimization of the current application",
             "Transforming a NodeJs Api into an AWS Lambda API",
-            "Creating IOT Objects that communicate with the app using Bluetooth",
+            "Creating IOT Objects that communicate with the App using Bluetooth",
             "Creating a complete management platform for real time view of the players progress",
             "Project management with training of interns"
         ],
@@ -31,9 +31,9 @@
         "title": "Developper",
         "startDate": "July 2019",
         "endDate": "August 2019",
-        "description": "This was my first real job! Learned a new game engine and how to create touch screen optimized interfaces. Moovlab makes a connected bracelet that is linked to a video game that allows you to do sports while having fun!",
+        "description": "This was my first \"real\" job! Learned a new game engine and how to create touch screen optimized interfaces. Moovlab makes a connected bracelet that is linked to a video game that allows you to do sports while having fun!",
         "missions": [
-            "Modification of a Video Game",
+            "Modification of a video game",
             "Creation of a touch based interface for selecting video games"
         ],
         "imageName": "moovlab.png",
@@ -49,7 +49,7 @@
         "title": "Electronics developper (Internship)",
         "startDate": "January 2019",
         "endDate": "March 2019",
-        "description":"Working With Arduino is easy, working with bare metal microcontrollers is on another level! The goal of the internship was simulating sensors with STM32 Nucleo cards, including address allocation, registers, SPI protocol, not an easy task. I learned that I love Arduino, but this kind of electronics was a bit too much. Since then, I have learned much more.",
+        "description": "Working with Arduino is easy, working with bare metal microcontrollers is abit more complicated. The goal of the internship was simulating sensors with STM32 Nucleo cards, including address allocation, registers, SPI protocol, quite a challenge.",
         "imageName": "squadrone.png",
         "missions": [
             "Creating a simulation of real sensors inside drones",
@@ -58,9 +58,9 @@
         ],
         "tech": [
             "C++",
-            "Nucloe 32",
-            "Spi Bus",
-            "Osciloscopes & logic analysers"
+            "Nucleo 32",
+            "SPI Bus",
+            "Osciloscopes & logic analyzer"
         ]
     },
     {
@@ -69,23 +69,23 @@
         "title": "Mobile App Developper (Internship)",
         "startDate": "May 2018",
         "endDate": "September 2018",
-        "description": "This was my first working experience, 4 months working with the Microsoft stack to create a mobile app allowing camping owners to be keept up to date on their new reservations. Alliance Reseau create a backend service that allow campings, hotels, and other establishments to integrate payment into their website.",
+        "description": "This was my first working experience, 4 months working with the Microsoft stack to create a mobile App allowing camping owners to be kept up to date on their new bookings. Alliance Reseau creates a backend service that allows campings, hotels, and other establishments to integrate payment into their website.",
         "imageName": "alliance-reseaux.png",
         "missions": [
-            "Creating a mobile app with Xamarin",
+            "Creating a mobile App with Xamarin",
             "Integrating the application with webhooks in the existing API"
         ],
         "tech": [
             "C#",
             "Xamarin",
             "Asp.Net",
-            "Sql Server"
+            "SQL Server"
         ]
     },
     {
-        "compagny": "Your company here",
+        "compagny": "Your company here ?",
         "compagnyWebsite": "#",
-        "title": "Your company here ! Lets Chat About It !",
+        "title": "Your company in this list ? Let's Chat About It !",
         "startDate": "Present",
         "endDate": "Future",
         "description": "I am always looking for oportunities, lets chat about it !",

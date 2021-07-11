@@ -1,17 +1,19 @@
-<button class="no-print" (click)="changeToFR()">Francais</button>
-<button class="no-print" (click)="changeToEN()">English</button>
-<button onclick="javascript:print()" class="no-print">
-  {{ 'download' | translate }}
-</button>
 <h1>Adrien Richard</h1>
+<div class="no-print">
+  <button (click)="changeToFR()">Francais</button> 
+  <button (click)="changeToEN()">English</button> 
+  <button onclick="javascript:print()">
+    {{ 'download' | translate }}
+  </button>
+</div>
 <p>
   Some people call me a developper other call me a nerd. Both are correct, I am
   interested in most things related to computers and tech in general. I also
   love learning by doing, hence why my
   <a routerLink="/projects">personal project list is quite long</a>.
   <br />
-  For the web I would say I am more of a back end guy (i'm sure you can see with
-  this website that front end is not my strong point, but if needed I can do
+  For the web, I would say I am more of a back end guy (I'm sure you can see from
+  this website that front end is not my strongest point, but if needed I can do
   it).
   <br />
   In general I love tinkering, making things, I love electronics and IOT devices
@@ -35,7 +37,7 @@
 
 <!---->
 <h2 class="no-print">{{'title.projects'|translate}}</h2>
-<h3 class="no-print">Too much to list here, <a routerLink="/projects">click me</a></h3>
+<h3 class="no-print">Too long to list here, <a routerLink="/projects">click me</a></h3>
 <hr />
 
 <!---->
@@ -51,7 +53,7 @@
 
     <div class="work-experience-project">
       <div *ngIf="w.missions">
-        <h4>{{'mainmission'|translate}}Main missions :</h4>
+        <h4>{{'mainmission'|translate}}</h4>
         <ul>
           <li *ngFor="let mis of w.missions">{{ mis }}</li>
         </ul>
@@ -66,6 +68,35 @@
   </div>
 </div>
 <hr />
+
+<!---->
+<div class="interests-skills">
+  <div>
+    <h2>{{'title.skills'|translate}}</h2>
+    <p>{{ 'progressbars' | translate}}</p>
+    <div class="tab" style="display: flex">
+      <div style="margin-right: 0px">
+        <p class="tightText">═══════════════════════════</p>
+        <p *ngFor="let sk of skills" class="tightText">{{ sk.name }}<br /></p>
+        <p class="tightText">═══════════════════════════</p>
+      </div>
+      <div>
+        <p class="tightText">╦══════════════════════╗</p>
+        <p class="tightText" *ngFor="let sk of skills">
+          {{ sk.levelstr }}
+        </p>
+        <p class="tightText">╩══════════════════════╝</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h2>{{'title.interests'|translate}}</h2>
+    <p>{{'interestchat'|translate}}</p>
+    <ul>
+      <li *ngFor="let int of interests">{{ int }}</li>
+    </ul>
+  </div>
+</div>
 
 <!---->
 <h2>{{'title.projects'|translate}}</h2>
@@ -90,33 +121,5 @@
 </ul>
 <hr class="no-print" />
 
-<!---->
-<div class="interests-skills">
-  <div>
-    <h2>{{'title.interests'|translate}}</h2>
-    <p>{{'interestchat'|translate}}</p>
-    <ul>
-      <li *ngFor="let int of interests">{{ int }}</li>
-    </ul>
-  </div>
-  <div>
-    <h2>{{'title.skills'|translate}}</h2>
-    <p>{{ 'progressbars' | translate}}</p>
-    <div class="tab" style="display: flex">
-      <div style="margin-right: 0px">
-        <p class="tightText">═══════════════════════════</p>
-        <p *ngFor="let sk of skills" class="tightText">{{ sk.name }}<br /></p>
-        <p class="tightText">═══════════════════════════</p>
-      </div>
-      <div>
-        <p class="tightText">╦══════════════════════╗</p>
-        <p class="tightText" *ngFor="let sk of skills">
-          {{ sk.levelstr }}
-        </p>
-        <p class="tightText">╩══════════════════════╝</p>
-      </div>
-    </div>
-  </div>
-</div>
 
 <small>{{ 'lastupdate' | translate}} : {{lastUpdate}}</small>
