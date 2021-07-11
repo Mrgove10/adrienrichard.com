@@ -9,6 +9,16 @@
   margin: 10px;
 }
 
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+
+  gap: 0 15px;
+}
+
 @media print {
   .logocomp {
     width: 75px;
