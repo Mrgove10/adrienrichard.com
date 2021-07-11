@@ -1,9 +1,9 @@
 <h1>Adrien Richard</h1>
 <div class="no-print">
-  <button (click)="changeToFR()">Francais</button> 
-  <button (click)="changeToEN()">English</button> 
+  <button (click)="changeToFR()">Francais</button>
+  <button (click)="changeToEN()">English</button>
   <button onclick="javascript:print()">
-    {{ 'download' | translate }}
+    {{ "download" | translate }}
   </button>
 </div>
 <p>
@@ -12,9 +12,9 @@
   love learning by doing, hence why my
   <a routerLink="/projects">personal project list is quite long</a>.
   <br />
-  For the web, I would say I am more of a back end guy (I'm sure you can see from
-  this website that front end is not my strongest point, but if needed I can do
-  it).
+  For the web, I would say I am more of a back end guy (I'm sure you can see
+  from this website that front end is not my strongest point, but if needed I
+  can do it).
   <br />
   In general I love tinkering, making things, I love electronics and IOT devices
   I have created a few that I use daily.
@@ -36,12 +36,14 @@
 </div>
 
 <!---->
-<h2 class="no-print">{{'title.projects'|translate}}</h2>
-<h3 class="no-print">Too long to list here, <a routerLink="/projects">click me</a></h3>
+<h2 class="no-print">{{ "title.projects" | translate }}</h2>
+<h3 class="no-print">
+  Too long to list here, <a routerLink="/projects">click me</a>
+</h3>
 <hr />
 
 <!---->
-<h2>{{'title.work'|translate}}</h2>
+<h2>{{ "title.work" | translate }}</h2>
 <div *ngFor="let w of work" class="work-experience-section">
   <a href="{{ w.compagnyWebsite }}" target="_blank">
     <img class="logocomp" src="assets/images/jobs/{{ w.imageName }}" />
@@ -53,13 +55,13 @@
 
     <div class="work-experience-project">
       <div *ngIf="w.missions">
-        <h4>{{'mainmission'|translate}}</h4>
+        <h4>{{ "mainmission" | translate }}</h4>
         <ul>
           <li *ngFor="let mis of w.missions">{{ mis }}</li>
         </ul>
       </div>
       <div *ngIf="w.tech">
-        <h4>{{'techused'|translate}}</h4>
+        <h4>{{ "techused" | translate }}</h4>
         <ul>
           <li *ngFor="let te of w.tech">{{ te }}</li>
         </ul>
@@ -72,8 +74,8 @@
 <!---->
 <div class="interests-skills">
   <div>
-    <h2>{{'title.skills'|translate}}</h2>
-    <p>{{ 'progressbars' | translate}}</p>
+    <h2>{{ "title.skills" | translate }}</h2>
+    <p>{{ "progressbars" | translate }}</p>
     <div class="tab" style="display: flex">
       <div style="margin-right: 0px">
         <p class="tightText">═══════════════════════════</p>
@@ -90,8 +92,8 @@
     </div>
   </div>
   <div>
-    <h2>{{'title.interests'|translate}}</h2>
-    <p>{{'interestchat'|translate}}</p>
+    <h2>{{ "title.interests" | translate }}</h2>
+    <p>{{ "interestchat" | translate }}</p>
     <ul>
       <li *ngFor="let int of interests">{{ int }}</li>
     </ul>
@@ -99,8 +101,8 @@
 </div>
 
 <!---->
-<h2>{{'title.projects'|translate}}</h2>
-<p>{{'projectsmall'|translate}}</p>
+<h2>{{ "title.projects" | translate }}</h2>
+<p>{{ "projectsmall" | translate }}</p>
 <p class="print-only">Find them all at adrienrichard.com/projects</p>
 <ul>
   <li *ngFor="let proj of projects">
@@ -112,8 +114,8 @@
 <hr />
 
 <!---->
-<h2 class="no-print">{{'title.events'|translate}}</h2>
-<p class="no-print">{{'eventbeforecovid'|translate}}</p>
+<h2 class="no-print">{{ "title.events" | translate }}</h2>
+<p class="no-print">{{ "eventbeforecovid" | translate }}</p>
 <ul class="no-print">
   <li *ngFor="let evnt of events">
     {{ evnt.name }}<small>{{ evnt.location }}</small>
@@ -121,5 +123,4 @@
 </ul>
 <hr class="no-print" />
 
-
-<small>{{ 'lastupdate' | translate}} : {{lastUpdate}}</small>
+<small>{{ "lastupdate" | translate }} : {{ lastUpdate }}</small>

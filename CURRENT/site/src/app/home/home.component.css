@@ -92,7 +92,7 @@
 
 /* responsive */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1680px) {
   .interests-skills {
     flex-direction: column;
     justify-content: flex-start;
@@ -109,8 +109,7 @@
   }
 }
 
-@media print
-{
+@media print {
   .interests-skills {
     flex-direction: column;
     justify-content: flex-start;
