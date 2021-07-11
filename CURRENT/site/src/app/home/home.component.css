@@ -9,6 +9,16 @@
   margin: 10px;
 }
 
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+
+  gap: 0 15px;
+}
+
 @media print {
   .logocomp {
     width: 75px;
@@ -92,7 +102,7 @@
 
 /* responsive */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1680px) {
   .interests-skills {
     flex-direction: column;
     justify-content: flex-start;
@@ -109,8 +119,7 @@
   }
 }
 
-@media print
-{
+@media print {
   .interests-skills {
     flex-direction: column;
     justify-content: flex-start;

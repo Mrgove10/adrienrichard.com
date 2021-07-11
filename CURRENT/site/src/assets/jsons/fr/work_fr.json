@@ -1,94 +1,80 @@
 [
-    {
-        "compagny": "Graaly",
-        "compagnyWebsite": "https://graaly.com/en/home/",
-        "title": "Développeur (Alternance)",
-        "startDate": "Septembre 2019",
-        "endDate": "Présent",
-        "description": "Travailler dans une startup est très gratifiant, on travaille sur tellement de choses différentes! J'ai beaucoup appris au cours de cette alternance, des compétences techniques et autres. Graaly conçoit une application mobile qui permet de créer un escape game n'importe où : à la maison, au travail, dans les lieux publics et de façon très simple !",
-        "missions": [
-            "Optimisation de l'application actuelle",
-            "Transformer une API NodeJs en une API AWS Lambda",
-            "Créer des objets IOT qui communiquent avec l'application via Bluetooth",
-            "Créer une plateforme de gestion complète pour une vue en temps réel de la progression des joueurs",
-            "Gestion de projet avec formation de stagiaires"
-        ],
-        "imageName": "graaly.png",
-        "tech": [
-            "Quasar framework",
-            "AWS Lambda",
-            "Github actions",
-            "VueJs",
-            "Unity",
-            "MQTT",
-            "Arduino",
-            "NodeJS"
-        ]
-    },
-    {
-        "compagny": "Moovlab",
-        "compagnyWebsite": "https://www.moovlab.fr/",
-        "title": "Développeur",
-        "startDate": "Juillet 2019",
-        "endDate": "Aout 2019",
-        "description": "C'était mon premier \"vrai\" travail ! J'ai appris un nouveau moteur de jeu et comment créer des interfaces optimisées pour les écrans tactiles. Moovlab fabrique un bracelet connecté, lié à un jeu vidéo qui permet de faire du sport tout en s'amusant !",
-        "missions": [
-            "Modification d'un jeu vidéo",
-            "Création d'une interface tactile de sélection de jeux vidéo"
-        ],
-        "imageName": "moovlab.png",
-        "tech": [
-            "Cocos 2DX",
-            "Typescript & Javascript",
-            "Bootstrap"
-        ]
-    },
-    {
-        "compagny": "Squadrone Systems",
-        "compagnyWebsite": "https://squadrone-system.com/",
-        "title": "Développeur électronique (Stage)",
-        "startDate": "Janvier 2019",
-        "endDate": "Mars 2019",
-        "description": "Travailler avec Arduino est facile, travailler avec des microcontrôleurs \"bare metal\" est bien plus complex ! L'objectif du stage était de simuler des capteurs avec des cartes STM32 Nucleo, y compris l'attribution d'adresses, les registres, le protocole SPI.",
-        "imageName": "squadrone.png",
-        "missions": [
-            "Créer une simulation de capteurs réels à l'intérieur de drones",
-            "Recréer l'allocation mémoire des différents capteurs",
-            "Utilisation du bus SPI à grande vitesse"
-        ],
-        "tech": [
-            "C++",
-            "Nucleo 32",
-            "bus SPI",
-            "Osciloscopes &  analyseur logique"
-        ]
-    },
-    {
-        "compagny": "Aliance Reseaux",
-        "compagnyWebsite": "https://www.alliance-reseaux.com/",
-        "title": "Développeur application mobile (Stage)",
-        "startDate": "Mai 2018",
-        "endDate": "Septembre 2018",
-        "description": "Ce fut ma première expérience professionnelle, 4 mois de travail avec le stack Microsoft pour créer une application mobile permettant aux propriétaires de camping d'être tenus au courant de leurs nouvelles réservations. Alliance Réseaux crée un service backend qui permet aux campings, hôtels et autres établissements d'intégrer les paiements sur leur site internet. ",
-        "imageName": "alliance-reseaux.png",
-        "missions": [
-            "Créer une application mobile avec Xamarin",
-            "Intégrer l'application avec des webhooks dans l'API existante"
-        ],
-        "tech": [
-            "C#",
-            "Xamarin",
-            "Asp.Net",
-            "SQL Server"
-        ]
-    },
-    {
-        "compagny": "Votre entreprise ici ?",
-        "compagnyWebsite": "#",
-        "title": "Votre entreprise dans cette liste ? Parlons-en !",
-        "startDate": "Présent",
-        "endDate": "Futur",
-        "description": "Je suis toujours à la recherche d'opportunités, parlons-en !",
-        "imageName": "future.jpg"
-    }
+  {
+    "compagny": "Graaly",
+    "compagnyWebsite": "https://graaly.com/en/home/",
+    "title": "Développeur (Alternance)",
+    "startDate": "Septembre 2019",
+    "endDate": "Présent",
+    "description": "Travailler dans une startup est très gratifiant, on travaille sur tellement de choses différentes ! J'ai beaucoup appris au cours de cette alternance, des compétences techniques et autres. Graaly conçoit une application mobile qui permet de créer un escape game n'importe où : à la maison, au travail, dans les lieux publics et de façon très simple !",
+    "missions": [
+      "Optimisation de l'application actuelle",
+      "Transformer une API NodeJs en une API AWS Lambda",
+      "Créer des objets IOT qui communiquent avec l'application via Bluetooth",
+      "Créer une plateforme de gestion complète pour une vue en temps réel de la progression des joueurs",
+      "Gestion de projet avec formation de stagiaires"
+    ],
+    "imageName": "graaly.png",
+    "tech": [
+      "Quasar framework",
+      "AWS Lambda",
+      "Github actions",
+      "VueJs",
+      "Unity",
+      "MQTT",
+      "Arduino",
+      "NodeJS"
+    ]
+  },
+  {
+    "compagny": "Moovlab",
+    "compagnyWebsite": "https://www.moovlab.fr/",
+    "title": "Développeur",
+    "startDate": "Juillet 2019",
+    "endDate": "Aout 2019",
+    "description": "C'était mon premier \"vrai\" travail ! J'ai appris un nouveau moteur de jeu et comment créer des interfaces optimisées pour les écrans tactiles. Moovlab fabrique un bracelet connecté, lié à un jeu vidéo qui permet de faire du sport tout en s'amusant !",
+    "missions": [
+      "Modification d'un jeu vidéo",
+      "Création d'une interface tactile de sélection de jeux vidéo"
+    ],
+    "imageName": "moovlab.png",
+    "tech": ["Cocos 2DX", "Typescript & Javascript", "Bootstrap"]
+  },
+  {
+    "compagny": "Squadrone Systems",
+    "compagnyWebsite": "https://squadrone-system.com/",
+    "title": "Développeur électronique (Stage)",
+    "startDate": "Janvier 2019",
+    "endDate": "Mars 2019",
+    "description": "Travailler avec Arduino est facile, travailler avec des microcontrôleurs \"bare metal\" est bien plus complexe ! L'objectif du stage était de simuler des capteurs avec des cartes STM32 Nucleo, y compris l'attribution d'adresses, les registres, le protocole SPI.",
+    "imageName": "squadrone.png",
+    "missions": [
+      "Créer une simulation de capteurs réels à l'intérieur de drones",
+      "Recréer l'allocation mémoire des différents capteurs",
+      "Utilisation du bus SPI à grande vitesse"
+    ],
+    "tech": ["C++", "Nucleo 32", "bus SPI", "Osciloscopes &  analyseur logique"]
+  },
+  {
+    "compagny": "Aliance Reseaux",
+    "compagnyWebsite": "https://www.alliance-reseaux.com/",
+    "title": "Développeur application mobile (Stage)",
+    "startDate": "Mai 2018",
+    "endDate": "Septembre 2018",
+    "description": "Ce fut ma première expérience professionnelle, 4 mois de travail avec le stack Microsoft pour créer une application mobile permettant aux propriétaires de camping d'être tenus au courant de leurs nouvelles réservations. Alliance Réseaux crée un service backend qui permet aux campings, hôtels et autres établissements d'intégrer les paiements sur leur site internet. ",
+    "imageName": "alliance-reseaux.png",
+    "missions": [
+      "Créer une application mobile avec Xamarin",
+      "Intégrer l'application avec des webhooks dans l'API existante"
+    ],
+    "tech": ["C#", "Xamarin", "Asp.Net", "SQL Server"]
+  },
+  {
+    "compagny": "Votre entreprise ici ?",
+    "compagnyWebsite": "#",
+    "title": "Votre entreprise dans cette liste ? Parlons-en !",
+    "startDate": "Présent",
+    "endDate": "Futur",
+    "description": "Je suis toujours à la recherche d'opportunités, parlons-en !",
+    "imageName": "future.jpg"
+  }
 ]
