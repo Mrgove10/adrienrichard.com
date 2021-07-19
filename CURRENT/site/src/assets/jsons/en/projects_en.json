@@ -56,6 +56,35 @@
         ]
     },
     {
+        "name": "Robot Mower",
+        "description": "Why buy a mower when you can make one (easier said then done) ? Project in collaboration with my dad !",
+        "url": "https://github.com/Mrgove10/autoMower",
+        "linkedinpost": "",
+        "date": "2021",
+        "imageFolder": "mower",
+        "images": [
+            "1.jpg",
+            "2.jpg",
+            "3.png",
+            "4.jpg",
+            "5.jpg",
+            "6.jpeg",
+            "7.jpeg"
+        ]
+    },
+    {
+        "name": "Minecraft in JS",
+        "description": "Minecraft done in javascript",
+        "url": "https://github.com/Mrgove10/mine.Js",
+        "linkedinpost": "",
+        "date": "2020",
+        "imageFolder": "minecraft",
+        "images": [
+            "1.png",
+            "2.png"
+        ]
+    },
+    {
         "name": "WikiGame",
         "description": "Get from a random wikipedia page to another random one, only by clicking links on the pages. A simple but hard game !",
         "url": "https://github.com/Mrgove10/wikigame.py",
