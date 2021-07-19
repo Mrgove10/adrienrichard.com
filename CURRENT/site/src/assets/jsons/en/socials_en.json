@@ -2,26 +2,31 @@
     {
         "link": "https://www.linkedin.com/in/adrien-rich/",
         "icon": "fab fa-linkedin",
-        "print": "linkedin.com/in/adrien-rich"
+        "print": "linkedin.com/in/adrien-rich",
+        "mouseover":"Linkedin profile"
     },
     {
         "link": "mailto:richardadrien0@gmail.com",
         "icon": "fas fa-at",
-        "print": "richardadrien0@gmail.com"
+        "print": "richardadrien0@gmail.com",
+        "mouseover":"Email"
     },
     {
         "link": "https://github.com/Mrgove10",
         "icon": "fab fa-github",
-        "print": "github.com/Mrgove10"
+        "print": "github.com/Mrgove10",
+        "mouseover":"Github profile"
     },
     {
         "link": "https://wakatime.com/@Adrien",
         "icon": "fas fa-signal",
-        "print": "wakatime.com/@Adrien"
+        "print": "wakatime.com/@Adrien",
+        "mouseover":"Wakatime, Coding stats"
     },
     {
-        "link": "/projects",
+        "link": "https://adrienrichard.com/projects",
         "icon": "fas fa-tools",
-        "print": "adrienrichard.com"
+        "print": "adrienrichard.com",
+        "mouseover":"Personal projects"
     }
 ]
