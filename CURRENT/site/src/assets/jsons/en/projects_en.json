@@ -97,17 +97,6 @@
         ]
     },
     {
-        "name": "Furmap.net",
-        "description": "With more then 12 000 users, furmap is now well known in the furry community. The first version was coded in only one day and has now been active for more then 2 years. This is, to date my most successful project and the one i am most proud of",
-        "url": "https://furmap.net",
-        "linkedinpost": "",
-        "date": "2019",
-        "imageFolder": "furmap",
-        "images": [
-            "1.png"
-        ]
-    },
-    {
         "name": "Connected picture frame",
         "description": "Just a little raspberry to get some information at a glance.",
         "url": "",
