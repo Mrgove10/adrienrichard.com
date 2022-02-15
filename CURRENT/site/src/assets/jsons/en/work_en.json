@@ -1,10 +1,22 @@
 [
     {
+        "compagny": "Verkor",
+        "compagnyWebsite": "https://verkor.com/",
+        "title": "IT & Digitalisation (Apprenticeship)",
+        "startDate": "September 2021",
+        "endDate": "Present",
+        "description": "",
+        "missions": [
+            "Lots of things related to IT & Digital"
+        ],
+        "imageName": "verkor.png"
+    },
+    {
         "compagny": "Graaly",
         "compagnyWebsite": "https://graaly.com/en/home/",
         "title": "Developper (Apprenticeship)",
         "startDate": "September 2019",
-        "endDate": "Present",
+        "endDate": "September 2021",
         "description": "Working in a startup is very rewarding, you get to work on so many different things! Learned a lot during this apprenticeship, some technical and non-technical skills. Graaly creates a mobile app that allows you to create an escape game anywhere : at home, at work, public places and in a very simple way !",
         "missions": [
             "Optimization of the current application",

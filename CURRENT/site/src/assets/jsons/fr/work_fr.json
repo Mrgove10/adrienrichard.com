@@ -1,10 +1,24 @@
 [
   {
+    "compagny": "Verkor",
+    "compagnyWebsite": "https://vekor.com/",
+    "title": "Digitalization & IT (Alternance)",
+    "startDate": "Septembre 2021",
+    "endDate": "Présent",
+    "description": "",
+    "missions": [
+      "Optimisation de l'application actuelle"
+    ],
+    "imageName": "verkor.png",
+    "tech": [
+    ]
+  },
+  {
     "compagny": "Graaly",
     "compagnyWebsite": "https://graaly.com/en/home/",
     "title": "Développeur (Alternance)",
     "startDate": "Septembre 2019",
-    "endDate": "Présent",
+    "endDate": "Septembre 2021",
     "description": "Travailler dans une startup est très gratifiant, on travaille sur tellement de choses différentes ! J'ai beaucoup appris au cours de cette alternance, des compétences techniques et autres. Graaly conçoit une application mobile qui permet de créer un escape game n'importe où : à la maison, au travail, dans les lieux publics et de façon très simple !",
     "missions": [
       "Optimisation de l'application actuelle",
@@ -37,7 +51,11 @@
       "Création d'une interface tactile de sélection de jeux vidéo"
     ],
     "imageName": "moovlab.png",
-    "tech": ["Cocos 2DX", "Typescript & Javascript", "Bootstrap"]
+    "tech": [
+      "Cocos 2DX",
+      "Typescript & Javascript",
+      "Bootstrap"
+    ]
   },
   {
     "compagny": "Squadrone Systems",
@@ -52,7 +70,12 @@
       "Recréer l'allocation mémoire des différents capteurs",
       "Utilisation du bus SPI à grande vitesse"
     ],
-    "tech": ["C++", "Nucleo 32", "bus SPI", "Osciloscopes &  analyseur logique"]
+    "tech": [
+      "C++",
+      "Nucleo 32",
+      "bus SPI",
+      "Osciloscopes &  analyseur logique"
+    ]
   },
   {
     "compagny": "Aliance Reseaux",
@@ -66,7 +89,12 @@
       "Créer une application mobile avec Xamarin",
       "Intégrer l'application avec des webhooks dans l'API existante"
     ],
-    "tech": ["C#", "Xamarin", "Asp.Net", "SQL Server"]
+    "tech": [
+      "C#",
+      "Xamarin",
+      "Asp.Net",
+      "SQL Server"
+    ]
   },
   {
     "compagny": "Votre entreprise ici ?",
