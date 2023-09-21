@@ -1,16 +1,40 @@
 [
   {
     "compagny": "Verkor",
-    "compagnyWebsite": "https://vekor.com/",
-    "title": "Digitalization & IT (Alternance)",
-    "startDate": "Septembre 2021",
+    "compagnyWebsite": "https://verkor.com/",
+    "title": "Ingénieur IT & Digitalisation",
+    "startDate": "Septembre 2022",
     "endDate": "Présent",
     "description": "",
     "missions": [
-      "Optimisation de l'application actuelle"
+      "Multiples activités liées à la numérisation du Verkor Innovation Center (VIC) et de la Gigafactory"
     ],
     "imageName": "verkor.png",
     "tech": [
+      "Networking",
+      "Systèmes de ticketing",
+      "Gestion de serveur",
+      "Virtualisation",
+      "Monitoring"
+    ]
+  },
+  {
+    "compagny": "Verkor",
+    "compagnyWebsite": "https://verkor.com/",
+    "title": "IT & Digitalisation (Apprentissage)",
+    "startDate": "Septembre 2021",
+    "endDate": "Septembre 2022",
+    "description": "",
+    "missions": [
+      "Définition et création du département informatique."
+    ],
+    "imageName": "verkor.png",
+    "tech": [
+      "Networking",
+      "Systèmes de ticketing",
+      "Gestion de serveur",
+      "Virtualisation",
+      "Monitoring"
     ]
   },
   {

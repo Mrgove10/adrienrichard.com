@@ -2,14 +2,40 @@
     {
         "compagny": "Verkor",
         "compagnyWebsite": "https://verkor.com/",
-        "title": "IT & Digitalisation (Apprenticeship)",
-        "startDate": "September 2021",
+        "title": "IT & Digitalisation Engineer",
+        "startDate": "September 2022",
         "endDate": "Present",
         "description": "",
         "missions": [
-            "Lots of things related to IT & Digital"
+            "Multiple activities related to the digitalization of the Verkor Innovation Center (VIC) and Gigafactory"
         ],
-        "imageName": "verkor.png"
+        "imageName": "verkor.png",
+        "tech": [
+            "Networking",
+            "Project management",
+            "Server management",
+            "Virtualisation",
+            "Monitoring"
+        ]
+    },
+    {
+        "compagny": "Verkor",
+        "compagnyWebsite": "https://verkor.com/",
+        "title": "IT & Digitalisation (Apprenticeship)",
+        "startDate": "September 2021",
+        "endDate": "September 2022",
+        "description": "",
+        "missions": [
+            "Definition and creation of the IT department."
+        ],
+        "imageName": "verkor.png",
+        "tech": [
+            "Networking",
+            "Ticketing",
+            "Server management",
+            "Virtualisation",
+            "Monitoring"
+        ]
     },
     {
         "compagny": "Graaly",
