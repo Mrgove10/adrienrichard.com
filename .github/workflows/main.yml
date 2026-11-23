@@ -10,9 +10,10 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
+    environment: PROD
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5.1.0
     
     - name: ☁ Install 
       run: |
@@ -40,5 +41,5 @@ jobs:
         server-dir: www/
         dangerous-clean-slate: true
         server: ${{ secrets.ftp_server }}
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASS }}
