@@ -19,22 +19,29 @@ import skillsJson_fr from '../../assets/jsons/fr/skills_fr.json';
 // last update
 import lastUpdateJson from '../../assets/jsons/lastUpdatedDate.json';
 
+interface Skill {
+  name: string;
+  level: number;
+  levelstr?: string;
+}
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  standalone: false
 })
 
 export class HomeComponent {
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('translations_en');
+    translate.setFallbackLang('translations_en');
     this.changeToEN();
   }
 
   public work = workJson_en;
   public events = eventsJson_en;
   public interests = interestsJson_en;
-  public skills = skillsJson_en;
+  public skills: Skill[] = skillsJson_en;
   public socials = socialsJson_en;
   public projects = projectJson_en;
 
@@ -75,7 +82,7 @@ export class HomeComponent {
         }
       }
       tmpString += ' ║';
-      (sk as any).levelstr = tmpString;
+      sk.levelstr = tmpString;
     });
 
     // skill shuffle

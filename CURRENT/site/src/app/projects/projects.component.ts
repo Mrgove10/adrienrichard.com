@@ -4,7 +4,8 @@ import projectsJson from '../../assets/jsons/en/projects_en.json';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.css'],
+  standalone: false
 })
 export class ProjectsComponent implements OnInit {
   // forced to reasign for acces in the html
