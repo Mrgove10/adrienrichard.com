@@ -37,7 +37,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.4.0
       with:
-        local-dir: CURRENT/site/dist/site/
+        protocol: ftps
+        local-dir: CURRENT/site/dist/site/browser/
         server-dir: www/
         dangerous-clean-slate: true
         server: ${{ secrets.FTP_URL }}
